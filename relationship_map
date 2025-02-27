@@ -1,0 +1,36 @@
+strict digraph {
+	color=deepskyblue compound=true fillcolor=lightskyblue style=filled
+	subgraph cluster00 {
+		label="Application Relationships" style=dashed
+		"AppName-97" -> "AppName-99" [label=without arrowhead=normal arrowtail=normal color=black dir=both style=bold]
+		"AppName-97" -> "AppName-8" [label=space arrowhead=normal arrowtail=normal color=black dir=forward style=solid]
+		"AppName-57" -> "AppName-98" [label=technology arrowhead=normal arrowtail=normal color=black dir=forward style=solid]
+		"AppName-57" -> "AppName-69" [label=sign arrowhead=normal arrowtail=normal color=brown dir=forward style=solid]
+		"AppName-57" -> "AppName-96" [label=strategy arrowhead=crow arrowtail=crow color=purple dir=both style=bold]
+		"AppName-85" -> "AppName-1" [label=through arrowhead=vee arrowtail=normal color=grey dir=forward style=solid]
+		"AppName-85" -> "AppName-82" [label=difficult arrowhead=normal arrowtail=normal color=brown dir=both style=bold]
+		"AppName-85" -> "AppName-17" [label=professional arrowhead=normal arrowtail=normal color=black dir=forward style=solid]
+		"AppName-85" -> "AppName-36" [label=lay arrowhead=tee arrowtail=normal color=orange dir=forward style=solid]
+		"AppName-85" -> "AppName-88" [label=improve arrowhead=vee arrowtail=normal color=grey dir=forward style=solid]
+		"AppName-85" -> "AppName-31" [label=with arrowhead=tee arrowtail=normal color=orange dir=forward style=solid]
+		"AppName-85" -> "AppName-69" [label=fear arrowhead=box arrowtail=box color=red dir=both style=bold]
+		"AppName-90" -> "AppName-61" [label=focus arrowhead=crow arrowtail=crow color=purple dir=both style=bold]
+		"AppName-94" -> "AppName-66" [label=draw arrowhead=crow arrowtail=crow color=purple dir=both style=bold]
+		"AppName-94" -> "AppName-75" [label=perform arrowhead=tee arrowtail=tee color=orange dir=both style=bold]
+		"AppName-94" -> "AppName-2" [label=guy arrowhead=normal arrowtail=normal color=black dir=forward style=solid]
+		"AppName-94" -> "AppName-61" [label=building arrowhead=tee arrowtail=tee color=orange dir=both style=bold]
+		"AppName-94" -> "AppName-26" [label=address arrowhead=normal arrowtail=normal color=black dir=both style=bold]
+		"AppName-94" -> "AppName-10" [label=into arrowhead=normal arrowtail=normal color=black dir=forward style=solid]
+	}
+	subgraph cluster03 {
+		label=Mechanism style=dashed
+		Mechanism [shape=box]
+		Mechanism -> API [label="Green Diamond" arrowhead=diamond color=green]
+		Mechanism -> FTP [label="Red Box" arrowhead=box color=red shape=box]
+		Mechanism -> Fileshare [label="Blue Circle" arrowhead=odot color=blue]
+		Mechanism -> Emails [label="Grey Vee" arrowhead=vee color=grey]
+		Mechanism -> Autosys [label="Orange Tee" arrowhead=tee color=orange]
+		Mechanism -> "Service Bus" [label="Purple Crow" arrowhead=crow color=purple]
+		Mechanism -> "Batch Updates" [label="Brown Normal" arrowhead=normal color=brown]
+	}
+}

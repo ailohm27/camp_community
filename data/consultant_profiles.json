@@ -1,0 +1,133 @@
+[
+    {
+        "appName1": "AppName-97",
+        "appName2": [
+            "AppName-99",
+            "AppName-8"
+        ],
+        "directionality": [
+            "bi-directional",
+            "upstream"
+        ],
+        "mechanism": [
+            "fileShare",
+            "fileShare"
+        ],
+        "topic": [
+            "without",
+            "space"
+        ]
+    },
+    {
+        "appName1": "AppName-57",
+        "appName2": [
+            "AppName-98",
+            "AppName-69",
+            "AppName-96"
+        ],
+        "directionality": [
+            "upstream",
+            "downstream",
+            "bi-directional"
+        ],
+        "mechanism": [
+            "fileShare",
+            "batch updates",
+            "service bus"
+        ],
+        "topic": [
+            "technology",
+            "sign",
+            "strategy"
+        ]
+    },
+    {
+        "appName1": "AppName-85",
+        "appName2": [
+            "AppName-1",
+            "AppName-82",
+            "AppName-17",
+            "AppName-36",
+            "AppName-88",
+            "AppName-31",
+            "AppName-69"
+        ],
+        "directionality": [
+            "downstream",
+            "bi-directional",
+            "upstream",
+            "downstream",
+            "downstream",
+            "upstream",
+            "bi-directional"
+        ],
+        "mechanism": [
+            "emails",
+            "batch updates",
+            "fileShare",
+            "autosys",
+            "emails",
+            "autosys",
+            "ftp"
+        ],
+        "topic": [
+            "through",
+            "difficult",
+            "professional",
+            "lay",
+            "improve",
+            "with",
+            "fear"
+        ]
+    },
+    {
+        "appName1": "AppName-90",
+        "appName2": [
+            "AppName-61"
+        ],
+        "directionality": [
+            "bi-directional"
+        ],
+        "mechanism": [
+            "service bus"
+        ],
+        "topic": [
+            "focus"
+        ]
+    },
+    {
+        "appName1": "AppName-94",
+        "appName2": [
+            "AppName-66",
+            "AppName-75",
+            "AppName-2",
+            "AppName-61",
+            "AppName-26",
+            "AppName-10"
+        ],
+        "directionality": [
+            "bi-directional",
+            "bi-directional",
+            "downstream",
+            "bi-directional",
+            "bi-directional",
+            "downstream"
+        ],
+        "mechanism": [
+            "service bus",
+            "autosys",
+            "fileShare",
+            "autosys",
+            "fileShare",
+            "fileShare"
+        ],
+        "topic": [
+            "draw",
+            "perform",
+            "guy",
+            "building",
+            "address",
+            "into"
+        ]
+    }
+]

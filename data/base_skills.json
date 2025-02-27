@@ -1,0 +1,16 @@
+{
+  "directionality": [
+    "downstream",
+    "upstream",
+    "bi-directional"
+  ],
+  "mechanism":[
+    "api",
+    "ftp",
+    "fileShare",
+    "emails",
+    "autosys",
+    "batch updates",
+    "service bus"
+  ]
+}
