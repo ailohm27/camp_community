@@ -6,7 +6,12 @@ st.set_page_config(
 )
 st.write("# IRE Design Automation POC")
 
-st.sidebar.success("Select a demo above.")
+st.sidebar.success("Select a page above.")
+
+# Clears all data cached with st.cache_data
+st.cache_data.clear()
+# Clears all resources cached with st.cache_resource
+st.cache_resource.clear()
 
 st.markdown(
     """
