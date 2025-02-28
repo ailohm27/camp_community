@@ -1,0 +1,31 @@
+digraph IRE_Architecture {
+	rankdir=LR splines=ortho
+	subgraph cluster_process_flow {
+		color=gray label="Process Flow" style=dashed
+		Inputs [label=Inputs shape=folder]
+		Funnel [label="Process (Funnel)" shape=ellipse]
+		Outputs [label="Outputs (2)" shape=note]
+		SOW_PF [label=SOW shape=box]
+		Inputs -> Funnel [label="(1)"]
+		Funnel -> Outputs [label="(2)"]
+		Outputs -> SOW_PF [label="(3)"]
+	}
+	subgraph cluster_arch_diagram {
+		color=gray label="Architecture Diagram" style=dashed
+		Template [label="Template?" shape=box]
+		Report [label="Report?" shape=box]
+		Etea [label="Etea?" shape=box]
+		Snippet [label="Snippet?" shape=box]
+		RACI [label="RACI?" shape=box]
+		MS [label="MS?" shape=box]
+		PBC [label="PBC?" shape=box]
+		SOW_AD [label=SOW shape=box]
+		Template -> Report [label="Output 1?"]
+		Report -> Etea [label="Output 2?"]
+		Etea -> Snippet
+		Snippet -> RACI
+		RACI -> MS
+		MS -> PBC
+		PBC -> SOW_AD [label="Final?"]
+	}
+}
