@@ -170,6 +170,7 @@ def transform_data_for_table(data):
 def classify_resource(key):
     """
     Classify resource key into a subscription/mgmt group.
+    Debug tip: print(key, '->', subscription) if needed to confirm classification.
     """
     lower_key = key.lower()
     if "firewall" in lower_key or "router" in lower_key or "dns" in lower_key:
@@ -179,25 +180,24 @@ def classify_resource(key):
     else:
         return "Foundation"
 
-def build_landing_zone_diagram(profile):
+def build_azure_landing_zone_diagram(profile):
     """
-    Creates an Landing Zone–style diagram:
+    Creates an Azure Landing Zone–style diagram:
       - Root tenant with Platform Management and App Recovery management groups.
-      - Platform MG has Foundation & Connectivity subscriptions.
-      - App Recovery MG has an Application Recovery subscription.
+      - Platform MG contains Foundation and Connectivity subscriptions.
+      - App Recovery MG contains Application Recovery subscription.
     Places each resource from 'profile' into the appropriate subscription subgraph.
+    Adjust rankdir, ranksep, and nodesep for better layout.
     """
     g = graphviz.Digraph(format="png", engine="dot")
+    # Switch rankdir to "TB" if you prefer top-to-bottom. Increase ranksep/nodesep for more space
     g.attr(rankdir="LR", splines="true", nodesep="1.5", ranksep="2.0")
-
-    # Create subgraphs and capture references in a dictionary
-    subgraphs = {}
 
     # Root tenant subgraph
     with g.subgraph(name="cluster_root_tenant") as root:
-        root.attr(label="Tenant (Root)", style="dashed", color="gray")
-        
-        # Platform Management Group
+        root.attr(label="Azure Tenant (Root)", style="dashed", color="gray")
+
+        # Platform management group
         with root.subgraph(name="cluster_platform_mg") as mg_platform:
             mg_platform.attr(
                 label="Platform Management Group",
@@ -205,27 +205,22 @@ def build_landing_zone_diagram(profile):
                 color="black",
                 fillcolor="#E8F4FA"
             )
+
             # Foundation subscription subgraph
             with mg_platform.subgraph(name="cluster_foundation_sub") as sub_foundation:
-                sub_foundation.attr(
-                    label="Subscription: Foundation",
-                    style="filled",
-                    color="blue",
-                    fillcolor="#F0F8FF"
-                )
-                subgraphs["Foundation"] = sub_foundation  # store reference
+                sub_foundation.attr(label="Subscription: Foundation",
+                                    style="filled",
+                                    color="blue",
+                                    fillcolor="#F0F8FF")
 
             # Connectivity subscription subgraph
             with mg_platform.subgraph(name="cluster_connectivity_sub") as sub_connect:
-                sub_connect.attr(
-                    label="Subscription: Connectivity",
-                    style="filled",
-                    color="blue",
-                    fillcolor="#F0F8FF"
-                )
-                subgraphs["Connectivity"] = sub_connect  # store reference
+                sub_connect.attr(label="Subscription: Connectivity",
+                                 style="filled",
+                                 color="blue",
+                                 fillcolor="#F0F8FF")
 
-        # App Recovery Management Group
+        # App Recovery management group
         with root.subgraph(name="cluster_apprecovery_mg") as mg_apprec:
             mg_apprec.attr(
                 label="App Recovery Mgmt Group",
@@ -233,15 +228,24 @@ def build_landing_zone_diagram(profile):
                 color="black",
                 fillcolor="#FFE5E5"
             )
+
             # Application Recovery subscription subgraph
             with mg_apprec.subgraph(name="cluster_apprec_sub") as sub_apprec:
-                sub_apprec.attr(
-                    label="Subscription: Application Recovery",
-                    style="filled",
-                    color="red",
-                    fillcolor="#FFE5E5"
-                )
-                subgraphs["AppRecovery"] = sub_apprec  # store reference
+                sub_apprec.attr(label="Subscription: Application Recovery",
+                                style="filled",
+                                color="red",
+                                fillcolor="#FFE5E5")
+
+    # Capture subgraph references
+    sub_foundation = g.subgraph("cluster_foundation_sub")
+    sub_connect = g.subgraph("cluster_connectivity_sub")
+    sub_apprec = g.subgraph("cluster_apprec_sub")
+
+    subgraphs = {
+        "Foundation": sub_foundation,
+        "Connectivity": sub_connect,
+        "AppRecovery": sub_apprec
+    }
 
     # Add resources to appropriate subgraph based on classification.
     for key, val in profile.items():
@@ -251,7 +255,8 @@ def build_landing_zone_diagram(profile):
             label = f"{key}\n({val})"
         subscription = classify_resource(key)  # "Foundation", "Connectivity", or "AppRecovery"
         node_id = f"{subscription}_{key}"
-        if subscription in subgraphs:
+        # Debug tip: st.write(f"{key} -> {subscription}") if needed
+        if subscription in subgraphs and subgraphs[subscription] is not None:
             subgraphs[subscription].node(
                 node_id,
                 label=label,
@@ -262,7 +267,7 @@ def build_landing_zone_diagram(profile):
                 fontcolor="black"
             )
 
-    # Example edges (ensure node IDs match generated nodes)
+    # Example edges
     g.edge("Foundation_Firewall_Management", "Connectivity_Firewalls", label="Manages")
     g.edge("Foundation_Storage_Devices", "AppRecovery_Backup_Products", label="Backups")
     g.edge("Connectivity_Routers", "Foundation_Default_Gateway", label="Routing")
@@ -273,7 +278,7 @@ def build_landing_zone_diagram(profile):
 # 4) STREAMLIT APP
 #############################
 def main():
-    st.title("Landing Zone–Style Generator & Diagram")
+    st.title("Azure Landing Zone–Style Generator & Diagram")
 
     # Use session state to store data
     if "data" not in st.session_state:
@@ -314,20 +319,26 @@ def main():
         st.info("No data to display yet. Generate or load data first.")
         return
 
-    st.markdown("### 2) Build Landing Zone Diagram")
+    st.markdown("### 2) Build Azure Landing Zone Diagram")
     if st.button("Build Diagram"):
         # Use the first profile
         profile = st.session_state["data"][0]
-        diagram = build_landing_zone_diagram(profile)
+
+        # Build the diagram
+        diagram = build_azure_landing_zone_diagram(profile)
+
+        # Display diagram
         st.graphviz_chart(diagram)
-        diagram.render("landing_zone", cleanup=True)
-        png_file = "landing_zone.png"
+
+        # Render and provide download
+        diagram.render("azure_landing_zone", cleanup=True)
+        png_file = "azure_landing_zone.png"
         if os.path.exists(png_file):
             with open(png_file, "rb") as f:
                 st.download_button(
                     label="💾 Download Diagram (PNG)",
                     data=f,
-                    file_name="landing_zone.png",
+                    file_name="azure_landing_zone.png",
                     mime="image/png"
                 )
             st.success(f"Diagram generated and saved as {png_file}")

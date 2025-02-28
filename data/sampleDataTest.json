@@ -5,170 +5,20 @@
             "Full Mesh"
         ],
         "Cloud_Environment": [
-            "GCP",
-            "GCP"
+            "Multi-Cloud",
+            "Oracle Cloud"
         ],
         "Num_of_subscriptions": [
-            "3",
-            "4"
+            "7",
+            "8"
         ],
         "Subscription_Names": [
-            "Azure-DR",
-            "Azure-Compliance"
-        ],
-        "Firewalls": [
-            "Juniper SRX Series",
-            "Check Point Firewall-1"
-        ],
-        "Archival_Storage_Accounts": [
-            "Google Cloud Coldline",
-            "Google Cloud Coldline"
-        ],
-        "Firewall_Management": [
-            "Juniper Networks Junos Space Security Director",
-            "VMware vRealize Network Insight"
-        ],
-        "Platform_Services": [
-            "IBM Cloud Kubernetes Service",
-            "Azure Functions"
-        ],
-        "Critical_Systems": [
-            "Business Intelligence platforms",
-            "Business Intelligence platforms"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "SOX (Sarbanes-Oxley Act)",
-            "ISO 27001/27002"
-        ],
-        "Networking_Requirements": [
-            "Redundant connections with multi-ISP support",
-            "Redundant connections with multi-ISP support"
-        ],
-        "Num_of_Servers": [
-            "50",
-            "100"
-        ],
-        "Server_Type": [
-            "Rack-mounted Servers",
-            "Rack-mounted Servers"
-        ],
-        "Switches": [
-            "Cisco Meraki Switches",
-            "Dell Networking N-Series"
-        ],
-        "Routers": [
-            "Huawei AR Series",
-            "Cisco ASR 1000 Series"
-        ],
-        "Storage_Devices": [
-            "IBM FlashSystem",
-            "HPE 3PAR StoreServ"
-        ],
-        "DNS": [
-            "BIND on Linux",
-            "AWS Route"
-        ],
-        "DHCP": [
-            "Infoblox DHCP Solutions",
-            "ISC DHCP Server on Linux"
-        ],
-        "Default_Gateway": [
-            "172.16.0.1",
-            "Dynamically assigned via SD-WAN solutions"
-        ],
-        "DNS_Server": [
-            "8.8.8.8",
-            "10.10.10.10"
-        ],
-        "Active_Directory": [
-            "Hybrid AD",
-            "Azure Active Directory Domain Services"
-        ],
-        "AD_Domain_Controllers": [
-            "VM-based DCs in the cloud (Azure AD DS)",
-            "A multi-master configuration with 4 DCs"
-        ],
-        "AD_Organizational_Units": [
-            "Department-based OUs",
-            "Business unit segregation"
-        ],
-        "Bandwidth": [
-            "Data Center: 40 Gbps high-throughput links",
-            "Data Center: 40 Gbps high-throughput links"
-        ],
-        "Latency": [
-            "Inter-datacenter latency below 20ms",
-            "Low latency tailored for real-time trading or gaming platforms"
-        ],
-        "Num_of_Users": [
-            "20000",
-            "500000"
-        ],
-        "Num_of_Systems": [
-            "500",
-            "20000"
-        ],
-        "Backup_Storage_Solution": [
-            "Acronis Cyber Backup with hybrid cloud integration",
-            "Commvault with integrated tape libraries for long-term retention"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "Business Continuity Planners",
-            "Data Protection Officers or Incident Response Team members"
-        ],
-        "User_Authentication": [
-            "LDAP with integrated Kerberos authentication",
-            "Okta Single Sign-On (SSO) with MFA integration"
-        ],
-        "User_Authorization": [
-            "Context-aware controls based on location, time, and device type",
-            "Custom policies enforced via Cloud Access Security Brokers (CASB)"
-        ],
-        "Backup_Products": [
-            "Cohesity DataProtect for hyper-scale backup",
-            "Arcserve UDP for unified data protection"
-        ],
-        "Num_of_Backup_Environments": [
-            "1",
-            "6"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Critical configuration files for network devices and servers",
-            "Regulatory compliance documentation and audit records"
-        ],
-        "Azure_Blob": [
-            "No",
-            "Yes"
-        ],
-        "Traffic_Allowed_Out": [
-            "Whitelist approved IP ranges and protocols only",
-            "Whitelist approved IP ranges and protocols only"
-        ],
-        "SIEM_Tool": [
-            "IBM QRadar",
-            "IBM QRadar"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Distributed Network",
-            "Mesh Network"
-        ],
-        "Cloud_Environment": [
-            "Oracle Cloud",
-            "AWS"
-        ],
-        "Num_of_subscriptions": [
-            "4",
-            "7"
-        ],
-        "Subscription_Names": [
-            "Oracle-Analytics",
+            "Azure-Compliance",
             "Oracle-Analytics"
         ],
         "Firewalls": [
-            "Juniper SRX Series",
-            "Juniper SRX Series"
+            "Check Point Firewall-1",
+            "Fortinet FortiGate Next-Generation Firewall"
         ],
         "Archival_Storage_Accounts": [
             "Google Cloud Coldline",
@@ -179,193 +29,43 @@
             "Fortinet FortiManager"
         ],
         "Platform_Services": [
-            "IBM Cloud Kubernetes Service",
-            "Serverless Framework on Google Cloud Functions"
+            "Red Hat OpenShift or Docker Swarm",
+            "Google Kubernetes Engine"
         ],
         "Critical_Systems": [
-            "Financial trading or high-frequency systems",
-            "Oracle E-Business Suite"
+            "Business Intelligence platforms",
+            "Salesforce CRM/ERP integration"
         ],
         "Compliance_Regulatory_Requirements": [
-            "CCPA (California Consumer Privacy Act)",
-            "ISO 27001/27002"
+            "FedRAMP",
+            "FedRAMP"
         ],
         "Networking_Requirements": [
-            "Zero downtime requirements (e.g., 99.99% SLA)",
-            "Low jitter and packet loss for VoIP services"
+            "Low jitter and packet loss for VoIP services",
+            "Zero downtime requirements (e.g., 99.99% SLA)"
         ],
         "Num_of_Servers": [
             "10",
-            "500"
+            "200"
         ],
         "Server_Type": [
-            "Rack-mounted Servers",
-            "Container Hosts"
+            "Container Hosts",
+            "Hybrid Setups"
         ],
         "Switches": [
-            "Extreme Networks Summit Series",
+            "Dell Networking N-Series",
             "Dell Networking N-Series"
         ],
         "Routers": [
-            "Juniper MX Series",
-            "Huawei AR Series"
+            "Arista 7280 Series",
+            "Juniper MX Series"
         ],
         "Storage_Devices": [
             "NetApp FAS Series",
             "HPE 3PAR StoreServ"
         ],
         "DNS": [
-            "Cloudflare DNS Services",
-            "Cloudflare DNS Services"
-        ],
-        "DHCP": [
-            "ISC DHCP Server on Linux",
-            "Cisco Prime Network Registrar"
-        ],
-        "Default_Gateway": [
-            "192.168.0.1",
-            "10.0.0.1"
-        ],
-        "DNS_Server": [
-            "10.10.10.10",
-            "8.8.8.8"
-        ],
-        "Active_Directory": [
-            "Azure Active Directory Domain Services",
-            "Managed AD Services"
-        ],
-        "AD_Domain_Controllers": [
-            "Geographically distributed controllers for global reach",
-            "VM-based DCs in the cloud (Azure AD DS)"
-        ],
-        "AD_Organizational_Units": [
-            "Location-based OUs",
-            "Role-based OUs"
-        ],
-        "Bandwidth": [
-            "Aggregated bandwidth for virtualized or containerized environments",
-            "Data Center: 40 Gbps high-throughput links"
-        ],
-        "Latency": [
-            "Inter-datacenter latency below 20ms",
-            "Low latency tailored for real-time trading or gaming platforms"
-        ],
-        "Num_of_Users": [
-            "1000",
-            "500"
-        ],
-        "Num_of_Systems": [
-            "10000",
-            "500"
-        ],
-        "Backup_Storage_Solution": [
-            "Cohesity DataProtect Platform",
-            "Veritas NetBackup with cloud replication"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "Disaster Recovery Coordinators",
-            "Disaster Recovery Coordinators"
-        ],
-        "User_Authentication": [
-            "RSA SecurID Tokens for two-factor authentication",
-            "LDAP with integrated Kerberos authentication"
-        ],
-        "User_Authorization": [
-            "Role-Based Access Control (RBAC) via Azure AD roles",
-            "Attribute-Based Access Control (ABAC) for fine-grained permissions"
-        ],
-        "Backup_Products": [
-            "Acronis Cyber Backup with cloud integration",
-            "Veritas NetBackup for large-scale environments"
-        ],
-        "Num_of_Backup_Environments": [
-            "5",
-            "7"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Digital certificates and SSL/TLS keys",
-            "Critical configuration files for network devices and servers"
-        ],
-        "Azure_Blob": [
-            "No",
-            "No"
-        ],
-        "Traffic_Allowed_Out": [
-            "Whitelist approved IP ranges and protocols only",
-            "Route outbound traffic through dedicated proxy servers"
-        ],
-        "SIEM_Tool": [
-            "IBM QRadar",
-            "IBM QRadar"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Mesh Network",
-            "Distributed Network"
-        ],
-        "Cloud_Environment": [
-            "Private Cloud",
-            "Private Cloud"
-        ],
-        "Num_of_subscriptions": [
-            "3",
-            "1"
-        ],
-        "Subscription_Names": [
-            "Oracle-Analytics",
-            "GCP-Prod"
-        ],
-        "Firewalls": [
-            "Check Point Firewall-1",
-            "VMware NSX Distributed Firewall"
-        ],
-        "Archival_Storage_Accounts": [
-            "Google Cloud Coldline",
-            "Google Cloud Coldline"
-        ],
-        "Firewall_Management": [
-            "Juniper Networks Junos Space Security Director",
-            "Juniper Networks Junos Space Security Director"
-        ],
-        "Platform_Services": [
-            "Serverless Framework on Google Cloud Functions",
-            "IBM Cloud Kubernetes Service"
-        ],
-        "Critical_Systems": [
-            "Financial trading or high-frequency systems",
-            "Oracle E-Business Suite"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "NIST 800-53",
-            "ISO 27001/27002"
-        ],
-        "Networking_Requirements": [
-            "Zero downtime requirements (e.g., 99.99% SLA)",
-            "Load balancing across multiple data centers"
-        ],
-        "Num_of_Servers": [
-            "100",
-            "10"
-        ],
-        "Server_Type": [
-            "Container Hosts",
-            "Container Hosts"
-        ],
-        "Switches": [
-            "Cisco Meraki Switches",
-            "Juniper EX Series"
-        ],
-        "Routers": [
-            "MikroTik RouterBOARD Series",
-            "Huawei AR Series"
-        ],
-        "Storage_Devices": [
-            "Pure Storage FlashArray",
-            "IBM FlashSystem"
-        ],
-        "DNS": [
-            "Infoblox DNS Appliances",
+            "BIND on Linux",
             "Infoblox DNS Appliances"
         ],
         "DHCP": [
@@ -374,7 +74,607 @@
         ],
         "Default_Gateway": [
             "192.168.0.1",
-            "192.168.0.1"
+            "Dynamically assigned via SD-WAN solutions"
+        ],
+        "DNS_Server": [
+            "192.168.1.10",
+            "8.8.8.8"
+        ],
+        "Active_Directory": [
+            "Azure Active Directory Domain Services",
+            "ADFS"
+        ],
+        "AD_Domain_Controllers": [
+            "Redundant controllers spread across multiple regions",
+            "VM-based DCs in the cloud (Azure AD DS)"
+        ],
+        "AD_Organizational_Units": [
+            "Temporary contractor or vendor OUs",
+            "Location-based OUs"
+        ],
+        "Bandwidth": [
+            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet",
+            "Aggregated bandwidth for virtualized or containerized environments"
+        ],
+        "Latency": [
+            "Remote office to HQ latency under 15ms",
+            "Remote office to HQ latency under 15ms"
+        ],
+        "Num_of_Users": [
+            "500000",
+            "500"
+        ],
+        "Num_of_Systems": [
+            "200",
+            "1000"
+        ],
+        "Backup_Storage_Solution": [
+            "Cohesity DataProtect Platform",
+            "Commvault with integrated tape libraries for long-term retention"
+        ],
+        "User_Roles_with_IRE_Access": [
+            "IT Operations & System Administrators",
+            "IT Operations & System Administrators"
+        ],
+        "User_Authentication": [
+            "Ping Identity with SAML-based authentication",
+            "RSA SecurID Tokens for two-factor authentication"
+        ],
+        "User_Authorization": [
+            "Attribute-Based Access Control (ABAC) for fine-grained permissions",
+            "Attribute-Based Access Control (ABAC) for fine-grained permissions"
+        ],
+        "Backup_Products": [
+            "Zerto for real-time replication and recovery",
+            "Cohesity DataProtect for hyper-scale backup"
+        ],
+        "Num_of_Backup_Environments": [
+            "2",
+            "2"
+        ],
+        "Technologies_to_Be_Placed_in_Vault": [
+            "Backup logs, recovery scripts, and audit trails",
+            "Critical configuration files for network devices and servers"
+        ],
+        "Azure_Blob": [
+            "Yes",
+            "No"
+        ],
+        "Traffic_Allowed_Out": [
+            "Route outbound traffic through dedicated proxy servers",
+            "Whitelist approved IP ranges and protocols only"
+        ],
+        "SIEM_Tool": [
+            "Rapid7 InsightIDR",
+            "Elastic SIEM integrated with the ELK Stack"
+        ]
+    },
+    {
+        "Network_Model": [
+            " Point-to-Point",
+            " Point-to-Point"
+        ],
+        "Cloud_Environment": [
+            "Multi-Cloud",
+            "Private Cloud"
+        ],
+        "Num_of_subscriptions": [
+            "7",
+            "9"
+        ],
+        "Subscription_Names": [
+            "IBMCloud-Test",
+            "Azure-DR"
+        ],
+        "Firewalls": [
+            "VMware NSX Distributed Firewall",
+            "Juniper SRX Series"
+        ],
+        "Archival_Storage_Accounts": [
+            "Oracle Cloud Archive Storage",
+            "Google Cloud Coldline"
+        ],
+        "Firewall_Management": [
+            "Cisco Firepower Management Center",
+            "VMware vRealize Network Insight"
+        ],
+        "Platform_Services": [
+            "Red Hat OpenShift or Docker Swarm",
+            "IBM Cloud Kubernetes Service"
+        ],
+        "Critical_Systems": [
+            "Business Intelligence platforms",
+            "Salesforce CRM/ERP integration"
+        ],
+        "Compliance_Regulatory_Requirements": [
+            "SOX (Sarbanes-Oxley Act)",
+            "CCPA (California Consumer Privacy Act)"
+        ],
+        "Networking_Requirements": [
+            "Zero downtime requirements (e.g., 99.99% SLA)",
+            "Load balancing across multiple data centers"
+        ],
+        "Num_of_Servers": [
+            "500",
+            "1000"
+        ],
+        "Server_Type": [
+            "Hybrid Setups",
+            "Container Hosts"
+        ],
+        "Switches": [
+            "Brocade ICX Series",
+            "Brocade ICX Series"
+        ],
+        "Routers": [
+            "Arista 7280 Series",
+            "MikroTik RouterBOARD Series"
+        ],
+        "Storage_Devices": [
+            "HPE 3PAR StoreServ",
+            "Pure Storage FlashArray"
+        ],
+        "DNS": [
+            "BIND on Linux",
+            "Infoblox DNS Appliances"
+        ],
+        "DHCP": [
+            "Infoblox DHCP Solutions",
+            "Cloud-managed DHCP"
+        ],
+        "Default_Gateway": [
+            "10.1.1.1",
+            "Dynamically assigned via SD-WAN solutions"
+        ],
+        "DNS_Server": [
+            "8.8.8.8",
+            "10.0.0.53"
+        ],
+        "Active_Directory": [
+            "Hybrid AD",
+            "Managed AD Services"
+        ],
+        "AD_Domain_Controllers": [
+            "Redundant controllers spread across multiple regions",
+            "Redundant controllers spread across multiple regions"
+        ],
+        "AD_Organizational_Units": [
+            "Temporary contractor or vendor OUs",
+            "Role-based OUs"
+        ],
+        "Bandwidth": [
+            "Data Center: 40 Gbps high-throughput links",
+            "Dual 1 Gbps connections at each site for redundancy"
+        ],
+        "Latency": [
+            "Inter-datacenter latency below 20ms",
+            "Low latency tailored for real-time trading or gaming platforms"
+        ],
+        "Num_of_Users": [
+            "200000",
+            "5000"
+        ],
+        "Num_of_Systems": [
+            "100",
+            "10000"
+        ],
+        "Backup_Storage_Solution": [
+            "Commvault with integrated tape libraries for long-term retention",
+            "Veritas NetBackup with cloud replication"
+        ],
+        "User_Roles_with_IRE_Access": [
+            "Data Protection Officers or Incident Response Team members",
+            "Business Continuity Planners"
+        ],
+        "User_Authentication": [
+            "Ping Identity with SAML-based authentication",
+            "RSA SecurID Tokens for two-factor authentication"
+        ],
+        "User_Authorization": [
+            "Zero Trust access models with continuous verification",
+            "Attribute-Based Access Control (ABAC) for fine-grained permissions"
+        ],
+        "Backup_Products": [
+            "Veritas NetBackup for large-scale environments",
+            "Zerto for real-time replication and recovery"
+        ],
+        "Num_of_Backup_Environments": [
+            "2",
+            "9"
+        ],
+        "Technologies_to_Be_Placed_in_Vault": [
+            "Digital certificates and SSL/TLS keys",
+            "Regulatory compliance documentation and audit records"
+        ],
+        "Azure_Blob": [
+            "No",
+            "Yes"
+        ],
+        "Traffic_Allowed_Out": [
+            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)",
+            "Route outbound traffic through dedicated proxy servers"
+        ],
+        "SIEM_Tool": [
+            "Elastic SIEM integrated with the ELK Stack",
+            "Elastic SIEM integrated with the ELK Stack"
+        ]
+    },
+    {
+        "Network_Model": [
+            " Point-to-Point",
+            " Point-to-Point"
+        ],
+        "Cloud_Environment": [
+            "IBM Cloud",
+            "IBM Cloud"
+        ],
+        "Num_of_subscriptions": [
+            "1",
+            "4"
+        ],
+        "Subscription_Names": [
+            "Azure-DR",
+            "IBMCloud-Test"
+        ],
+        "Firewalls": [
+            "Fortinet FortiGate Next-Generation Firewall",
+            "Fortinet FortiGate Next-Generation Firewall"
+        ],
+        "Archival_Storage_Accounts": [
+            "IBM Cloud Object Storage - Archive",
+            "Dell EMC Isilon for Archival Data"
+        ],
+        "Firewall_Management": [
+            "Azure Firewall Manager",
+            "Azure Firewall Manager"
+        ],
+        "Platform_Services": [
+            "Serverless Framework on Google Cloud Functions",
+            "IBM Cloud Kubernetes Service"
+        ],
+        "Critical_Systems": [
+            "Business Intelligence platforms",
+            "Custom enterprise applications"
+        ],
+        "Compliance_Regulatory_Requirements": [
+            "FedRAMP",
+            "FedRAMP"
+        ],
+        "Networking_Requirements": [
+            "Quality of Service (QoS) for critical traffic prioritization",
+            "Quality of Service (QoS) for critical traffic prioritization"
+        ],
+        "Num_of_Servers": [
+            "1000",
+            "1000"
+        ],
+        "Server_Type": [
+            "Hyper-converged Infrastructure Unit",
+            "Container Hosts"
+        ],
+        "Switches": [
+            "Juniper EX Series",
+            "Juniper EX Series"
+        ],
+        "Routers": [
+            "Juniper MX Series",
+            "Juniper MX Series"
+        ],
+        "Storage_Devices": [
+            "Pure Storage FlashArray",
+            "Pure Storage FlashArray"
+        ],
+        "DNS": [
+            "Infoblox DNS Appliances",
+            "Cloudflare DNS Services"
+        ],
+        "DHCP": [
+            "Integrated DHCP on Meraki Devices",
+            "ISC DHCP Server on Linux"
+        ],
+        "Default_Gateway": [
+            "192.168.0.1",
+            "10.1.1.1"
+        ],
+        "DNS_Server": [
+            "192.168.1.10",
+            "10.10.10.10"
+        ],
+        "Active_Directory": [
+            "Hybrid AD",
+            "Managed AD Services"
+        ],
+        "AD_Domain_Controllers": [
+            "A multi-master configuration with 4 DCs",
+            "3 in the primary site and 2 in a DR site"
+        ],
+        "AD_Organizational_Units": [
+            "Temporary contractor or vendor OUs",
+            "Location-based OUs"
+        ],
+        "Bandwidth": [
+            "Data Center: 40 Gbps high-throughput links",
+            "Data Center: 40 Gbps high-throughput links"
+        ],
+        "Latency": [
+            "Remote office to HQ latency under 15ms",
+            "Monitoring tools ensuring latency stays within predefined thresholds"
+        ],
+        "Num_of_Users": [
+            "20000",
+            "5000"
+        ],
+        "Num_of_Systems": [
+            "5000",
+            "2000"
+        ],
+        "Backup_Storage_Solution": [
+            "Commvault with integrated tape libraries for long-term retention",
+            "Zerto for continuous data protection and replication"
+        ],
+        "User_Roles_with_IRE_Access": [
+            "IT Operations & System Administrators",
+            "Disaster Recovery Coordinators"
+        ],
+        "User_Authentication": [
+            "Okta Single Sign-On (SSO) with MFA integration",
+            "Okta Single Sign-On (SSO) with MFA integration"
+        ],
+        "User_Authorization": [
+            "Context-aware controls based on location, time, and device type",
+            "Context-aware controls based on location, time, and device type"
+        ],
+        "Backup_Products": [
+            "Zerto for real-time replication and recovery",
+            "Acronis Cyber Backup with cloud integration"
+        ],
+        "Num_of_Backup_Environments": [
+            "7",
+            "1"
+        ],
+        "Technologies_to_Be_Placed_in_Vault": [
+            "Backup logs, recovery scripts, and audit trails",
+            "Regulatory compliance documentation and audit records"
+        ],
+        "Azure_Blob": [
+            "No",
+            "Yes"
+        ],
+        "Traffic_Allowed_Out": [
+            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)",
+            "Route outbound traffic through dedicated proxy servers"
+        ],
+        "SIEM_Tool": [
+            "IBM QRadar",
+            "Sumo Logic"
+        ]
+    },
+    {
+        "Network_Model": [
+            " Point-to-Point",
+            "Full Mesh"
+        ],
+        "Cloud_Environment": [
+            "Private Cloud",
+            "AWS"
+        ],
+        "Num_of_subscriptions": [
+            "7",
+            "6"
+        ],
+        "Subscription_Names": [
+            "IBMCloud-Test",
+            "Azure-DR"
+        ],
+        "Firewalls": [
+            "VMware NSX Distributed Firewall",
+            "SonicWall NSA Series"
+        ],
+        "Archival_Storage_Accounts": [
+            "Dell EMC Isilon for Archival Data",
+            "Oracle Cloud Archive Storage"
+        ],
+        "Firewall_Management": [
+            "Cisco Firepower Management Center",
+            "Cisco Firepower Management Center"
+        ],
+        "Platform_Services": [
+            "IBM Cloud Kubernetes Service",
+            "Azure Functions"
+        ],
+        "Critical_Systems": [
+            "Oracle E-Business Suite",
+            "Salesforce CRM/ERP integration"
+        ],
+        "Compliance_Regulatory_Requirements": [
+            "FedRAMP",
+            "CCPA (California Consumer Privacy Act)"
+        ],
+        "Networking_Requirements": [
+            "Redundant connections with multi-ISP support",
+            "Low jitter and packet loss for VoIP services"
+        ],
+        "Num_of_Servers": [
+            "200",
+            "500"
+        ],
+        "Server_Type": [
+            "Container Hosts",
+            "Hyper-converged Infrastructure Unit"
+        ],
+        "Switches": [
+            "Cisco Meraki Switches",
+            "Dell Networking N-Series"
+        ],
+        "Routers": [
+            "Juniper MX Series",
+            "Arista 7280 Series"
+        ],
+        "Storage_Devices": [
+            "Ceph Distributed Storage Clusters",
+            "Ceph Distributed Storage Clusters"
+        ],
+        "DNS": [
+            "AWS Route",
+            "Google Cloud DNS"
+        ],
+        "DHCP": [
+            "Infoblox DHCP Solutions",
+            "Infoblox DHCP Solutions"
+        ],
+        "Default_Gateway": [
+            "172.16.0.1",
+            "172.16.0.1"
+        ],
+        "DNS_Server": [
+            "8.8.8.8",
+            "8.8.8.8"
+        ],
+        "Active_Directory": [
+            "Hybrid AD",
+            "LDAP-based Directory Services"
+        ],
+        "AD_Domain_Controllers": [
+            "Geographically distributed controllers for global reach",
+            "Geographically distributed controllers for global reach"
+        ],
+        "AD_Organizational_Units": [
+            "Business unit segregation",
+            "Business unit segregation"
+        ],
+        "Bandwidth": [
+            "Aggregated bandwidth for virtualized or containerized environments",
+            "Dual 1 Gbps connections at each site for redundancy"
+        ],
+        "Latency": [
+            "Global WAN connectivity maintained under 50ms",
+            "Low latency tailored for real-time trading or gaming platforms"
+        ],
+        "Num_of_Users": [
+            "200000",
+            "100000"
+        ],
+        "Num_of_Systems": [
+            "5000",
+            "5000"
+        ],
+        "Backup_Storage_Solution": [
+            "Cohesity DataProtect Platform",
+            "Commvault with integrated tape libraries for long-term retention"
+        ],
+        "User_Roles_with_IRE_Access": [
+            "Application Owners with elevated privileges",
+            "Business Continuity Planners"
+        ],
+        "User_Authentication": [
+            "LDAP with integrated Kerberos authentication",
+            "Okta Single Sign-On (SSO) with MFA integration"
+        ],
+        "User_Authorization": [
+            "Attribute-Based Access Control (ABAC) for fine-grained permissions",
+            "Context-aware controls based on location, time, and device type"
+        ],
+        "Backup_Products": [
+            "Arcserve UDP for unified data protection",
+            "Veritas NetBackup for large-scale environments"
+        ],
+        "Num_of_Backup_Environments": [
+            "10",
+            "4"
+        ],
+        "Technologies_to_Be_Placed_in_Vault": [
+            "Backup logs, recovery scripts, and audit trails",
+            "Regulatory compliance documentation and audit records"
+        ],
+        "Azure_Blob": [
+            "Yes",
+            "No"
+        ],
+        "Traffic_Allowed_Out": [
+            "Route outbound traffic through dedicated proxy servers",
+            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)"
+        ],
+        "SIEM_Tool": [
+            "LogRhythm",
+            "Rapid7 InsightIDR"
+        ]
+    },
+    {
+        "Network_Model": [
+            " Point-to-Point",
+            "Full Mesh"
+        ],
+        "Cloud_Environment": [
+            "Oracle Cloud",
+            "IBM Cloud"
+        ],
+        "Num_of_subscriptions": [
+            "4",
+            "3"
+        ],
+        "Subscription_Names": [
+            "Azure-Compliance",
+            "GCP-Prod"
+        ],
+        "Firewalls": [
+            "Check Point Firewall-1",
+            "VMware NSX Distributed Firewall"
+        ],
+        "Archival_Storage_Accounts": [
+            "IBM Cloud Object Storage - Archive",
+            "Dell EMC Isilon for Archival Data"
+        ],
+        "Firewall_Management": [
+            "Fortinet FortiManager",
+            "Cisco Firepower Management Center"
+        ],
+        "Platform_Services": [
+            "Google Kubernetes Engine",
+            "Azure Functions"
+        ],
+        "Critical_Systems": [
+            "Business Intelligence platforms",
+            "Oracle E-Business Suite"
+        ],
+        "Compliance_Regulatory_Requirements": [
+            "SOX (Sarbanes-Oxley Act)",
+            "SOX (Sarbanes-Oxley Act)"
+        ],
+        "Networking_Requirements": [
+            "Redundant connections with multi-ISP support",
+            "Redundant connections with multi-ISP support"
+        ],
+        "Num_of_Servers": [
+            "50",
+            "100"
+        ],
+        "Server_Type": [
+            "Container Hosts",
+            "Hyper-converged Infrastructure Unit"
+        ],
+        "Switches": [
+            "Brocade ICX Series",
+            "Juniper EX Series"
+        ],
+        "Routers": [
+            "Arista 7280 Series",
+            "Juniper MX Series"
+        ],
+        "Storage_Devices": [
+            "NetApp FAS Series",
+            "HPE 3PAR StoreServ"
+        ],
+        "DNS": [
+            "AWS Route",
+            "AWS Route"
+        ],
+        "DHCP": [
+            "Infoblox DHCP Solutions",
+            "Cisco Prime Network Registrar"
+        ],
+        "Default_Gateway": [
+            "10.1.1.1",
+            "172.16.0.1"
         ],
         "DNS_Server": [
             "8.8.8.8",
@@ -385,336 +685,36 @@
             "LDAP-based Directory Services"
         ],
         "AD_Domain_Controllers": [
-            "A multi-master configuration with 4 DCs",
+            "Geographically distributed controllers for global reach",
             "Geographically distributed controllers for global reach"
         ],
         "AD_Organizational_Units": [
-            "Location-based OUs",
-            "Role-based OUs"
+            "Role-based OUs",
+            "Location-based OUs"
         ],
         "Bandwidth": [
-            "Dual 1 Gbps connections at each site for redundancy",
-            "Aggregated bandwidth for virtualized or containerized environments"
+            "Aggregated bandwidth for virtualized or containerized environments",
+            "Branch offices with 500 Mbps broadband plus LTE backup"
         ],
         "Latency": [
-            "Inter-datacenter latency below 20ms",
+            "Remote office to HQ latency under 15ms",
             "Global WAN connectivity maintained under 50ms"
         ],
         "Num_of_Users": [
-            "200000",
-            "500000"
+            "20000",
+            "500"
         ],
         "Num_of_Systems": [
-            "5000",
+            "2000",
             "2000"
         ],
         "Backup_Storage_Solution": [
-            "Commvault with integrated tape libraries for long-term retention",
-            "Commvault with integrated tape libraries for long-term retention"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "IT Operations & System Administrators",
-            "Business Continuity Planners"
-        ],
-        "User_Authentication": [
-            "LDAP with integrated Kerberos authentication",
-            "Ping Identity with SAML-based authentication"
-        ],
-        "User_Authorization": [
-            "Context-aware controls based on location, time, and device type",
-            "Context-aware controls based on location, time, and device type"
-        ],
-        "Backup_Products": [
-            "Cohesity DataProtect for hyper-scale backup",
-            "Cohesity DataProtect for hyper-scale backup"
-        ],
-        "Num_of_Backup_Environments": [
-            "3",
-            "6"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Critical configuration files for network devices and servers",
-            "Regulatory compliance documentation and audit records"
-        ],
-        "Azure_Blob": [
-            "No",
-            "No"
-        ],
-        "Traffic_Allowed_Out": [
-            "Whitelist approved IP ranges and protocols only",
-            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)"
-        ],
-        "SIEM_Tool": [
-            "Elastic SIEM integrated with the ELK Stack",
-            "IBM QRadar"
-        ]
-    },
-    {
-        "Network_Model": [
-            " Point-to-Point",
-            "Distributed Network"
-        ],
-        "Cloud_Environment": [
-            "Azure",
-            "AWS"
-        ],
-        "Num_of_subscriptions": [
-            "7",
-            "9"
-        ],
-        "Subscription_Names": [
-            "Azure-Compliance",
-            "Oracle-Analytics"
-        ],
-        "Firewalls": [
-            "Check Point Firewall-1",
-            "SonicWall NSA Series"
-        ],
-        "Archival_Storage_Accounts": [
-            "Dell EMC Isilon for Archival Data",
-            "Google Cloud Coldline"
-        ],
-        "Firewall_Management": [
-            "Cisco Firepower Management Center",
-            "Azure Firewall Manager"
-        ],
-        "Platform_Services": [
-            "Google Kubernetes Engine",
-            "Serverless Framework on Google Cloud Functions"
-        ],
-        "Critical_Systems": [
-            "Custom enterprise applications",
-            "Oracle E-Business Suite"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "ISO 27001/27002",
-            "CCPA (California Consumer Privacy Act)"
-        ],
-        "Networking_Requirements": [
-            "Redundant connections with multi-ISP support",
-            "Redundant connections with multi-ISP support"
-        ],
-        "Num_of_Servers": [
-            "10",
-            "200"
-        ],
-        "Server_Type": [
-            "Rack-mounted Servers",
-            "Hyper-converged Infrastructure Unit"
-        ],
-        "Switches": [
-            "Cisco Meraki Switches",
-            "Extreme Networks Summit Series"
-        ],
-        "Routers": [
-            "MikroTik RouterBOARD Series",
-            "MikroTik RouterBOARD Series"
-        ],
-        "Storage_Devices": [
-            "Ceph Distributed Storage Clusters",
-            "Ceph Distributed Storage Clusters"
-        ],
-        "DNS": [
-            "Cloudflare DNS Services",
-            "BIND on Linux"
-        ],
-        "DHCP": [
-            "Cloud-managed DHCP",
-            "Cisco Prime Network Registrar"
-        ],
-        "Default_Gateway": [
-            "192.168.0.1",
-            "172.16.0.1"
-        ],
-        "DNS_Server": [
-            "10.10.10.10",
-            "192.168.1.10"
-        ],
-        "Active_Directory": [
-            "LDAP-based Directory Services",
-            "LDAP-based Directory Services"
-        ],
-        "AD_Domain_Controllers": [
-            "Geographically distributed controllers for global reach",
-            "A multi-master configuration with 4 DCs"
-        ],
-        "AD_Organizational_Units": [
-            "Department-based OUs",
-            "Business unit segregation"
-        ],
-        "Bandwidth": [
-            "Data Center: 40 Gbps high-throughput links",
-            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet"
-        ],
-        "Latency": [
-            "Monitoring tools ensuring latency stays within predefined thresholds",
-            "Remote office to HQ latency under 15ms"
-        ],
-        "Num_of_Users": [
-            "50000",
-            "200000"
-        ],
-        "Num_of_Systems": [
-            "20000",
-            "100"
-        ],
-        "Backup_Storage_Solution": [
-            "Commvault with integrated tape libraries for long-term retention",
+            "Zerto for continuous data protection and replication",
             "Cohesity DataProtect Platform"
         ],
         "User_Roles_with_IRE_Access": [
-            "IT Operations & System Administrators",
-            "Disaster Recovery Coordinators"
-        ],
-        "User_Authentication": [
-            "Ping Identity with SAML-based authentication",
-            "RSA SecurID Tokens for two-factor authentication"
-        ],
-        "User_Authorization": [
-            "Attribute-Based Access Control (ABAC) for fine-grained permissions",
-            "Role-Based Access Control (RBAC) via Azure AD roles"
-        ],
-        "Backup_Products": [
-            "Veritas NetBackup for large-scale environments",
-            "Veritas NetBackup for large-scale environments"
-        ],
-        "Num_of_Backup_Environments": [
-            "4",
-            "3"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Critical configuration files for network devices and servers",
-            "Regulatory compliance documentation and audit records"
-        ],
-        "Azure_Blob": [
-            "No",
-            "No"
-        ],
-        "Traffic_Allowed_Out": [
-            "Route outbound traffic through dedicated proxy servers",
-            "Route outbound traffic through dedicated proxy servers"
-        ],
-        "SIEM_Tool": [
-            "LogRhythm",
-            "Elastic SIEM integrated with the ELK Stack"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Hybrid",
-            "Mesh Network"
-        ],
-        "Cloud_Environment": [
-            "AWS",
-            "Multi-Cloud"
-        ],
-        "Num_of_subscriptions": [
-            "4",
-            "6"
-        ],
-        "Subscription_Names": [
-            "IBMCloud-Test",
-            "IBMCloud-Test"
-        ],
-        "Firewalls": [
-            "Check Point Firewall-1",
-            "Check Point Firewall-1"
-        ],
-        "Archival_Storage_Accounts": [
-            "Oracle Cloud Archive Storage",
-            "Oracle Cloud Archive Storage"
-        ],
-        "Firewall_Management": [
-            "VMware vRealize Network Insight",
-            "VMware vRealize Network Insight"
-        ],
-        "Platform_Services": [
-            "Serverless Framework on Google Cloud Functions",
-            "Google Kubernetes Engine"
-        ],
-        "Critical_Systems": [
-            "Oracle E-Business Suite",
-            "Custom enterprise applications"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "ISO 27001/27002",
-            "CCPA (California Consumer Privacy Act)"
-        ],
-        "Networking_Requirements": [
-            "Load balancing across multiple data centers",
-            "Low jitter and packet loss for VoIP services"
-        ],
-        "Num_of_Servers": [
-            "100",
-            "5000"
-        ],
-        "Server_Type": [
-            "Container Hosts",
-            "Blade Servers"
-        ],
-        "Switches": [
-            "Cisco Meraki Switches",
-            "Cisco Meraki Switches"
-        ],
-        "Routers": [
-            "Juniper MX Series",
-            "MikroTik RouterBOARD Series"
-        ],
-        "Storage_Devices": [
-            "IBM FlashSystem",
-            "Pure Storage FlashArray"
-        ],
-        "DNS": [
-            "AWS Route",
-            "BIND on Linux"
-        ],
-        "DHCP": [
-            "Cisco Prime Network Registrar",
-            "Cloud-managed DHCP"
-        ],
-        "Default_Gateway": [
-            "172.16.0.1",
-            "192.168.0.1"
-        ],
-        "DNS_Server": [
-            "10.10.10.10",
-            "192.168.1.10"
-        ],
-        "Active_Directory": [
-            "Hybrid AD",
-            "Managed AD Services"
-        ],
-        "AD_Domain_Controllers": [
-            "Geographically distributed controllers for global reach",
-            "3 in the primary site and 2 in a DR site"
-        ],
-        "AD_Organizational_Units": [
-            "Role-based OUs",
-            "Department-based OUs"
-        ],
-        "Bandwidth": [
-            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet",
-            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet"
-        ],
-        "Latency": [
-            "Low latency tailored for real-time trading or gaming platforms",
-            "Low latency tailored for real-time trading or gaming platforms"
-        ],
-        "Num_of_Users": [
-            "1000",
-            "100000"
-        ],
-        "Num_of_Systems": [
-            "50000",
-            "2000"
-        ],
-        "Backup_Storage_Solution": [
-            "Veritas NetBackup with cloud replication",
-            "Commvault with integrated tape libraries for long-term retention"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "Disaster Recovery Coordinators",
-            "Disaster Recovery Coordinators"
+            "Business Continuity Planners",
+            "Business Continuity Planners"
         ],
         "User_Authentication": [
             "Okta Single Sign-On (SSO) with MFA integration",
@@ -722,315 +722,15 @@
         ],
         "User_Authorization": [
             "Attribute-Based Access Control (ABAC) for fine-grained permissions",
-            "Role-Based Access Control (RBAC) via Azure AD roles"
-        ],
-        "Backup_Products": [
-            "Arcserve UDP for unified data protection",
-            "Acronis Cyber Backup with cloud integration"
-        ],
-        "Num_of_Backup_Environments": [
-            "5",
-            "6"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Digital certificates and SSL/TLS keys",
-            "Backup logs, recovery scripts, and audit trails"
-        ],
-        "Azure_Blob": [
-            "No",
-            "Yes"
-        ],
-        "Traffic_Allowed_Out": [
-            "Route outbound traffic through dedicated proxy servers",
-            "Route outbound traffic through dedicated proxy servers"
-        ],
-        "SIEM_Tool": [
-            "Sumo Logic",
-            "Rapid7 InsightIDR"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Mesh Network",
-            "Full Mesh"
-        ],
-        "Cloud_Environment": [
-            "Private Cloud",
-            "IBM Cloud"
-        ],
-        "Num_of_subscriptions": [
-            "7",
-            "2"
-        ],
-        "Subscription_Names": [
-            "Azure-Compliance",
-            "GCP-Prod"
-        ],
-        "Firewalls": [
-            "Juniper SRX Series",
-            "SonicWall NSA Series"
-        ],
-        "Archival_Storage_Accounts": [
-            "Google Cloud Coldline",
-            "IBM Cloud Object Storage - Archive"
-        ],
-        "Firewall_Management": [
-            "Azure Firewall Manager",
-            "Azure Firewall Manager"
-        ],
-        "Platform_Services": [
-            "Google Kubernetes Engine",
-            "Google Kubernetes Engine"
-        ],
-        "Critical_Systems": [
-            "Custom enterprise applications",
-            "Custom enterprise applications"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "SOX (Sarbanes-Oxley Act)",
-            "SOX (Sarbanes-Oxley Act)"
-        ],
-        "Networking_Requirements": [
-            "Quality of Service (QoS) for critical traffic prioritization",
-            "Low jitter and packet loss for VoIP services"
-        ],
-        "Num_of_Servers": [
-            "10000",
-            "20"
-        ],
-        "Server_Type": [
-            "Rack-mounted Servers",
-            "Blade Servers"
-        ],
-        "Switches": [
-            "Extreme Networks Summit Series",
-            "Brocade ICX Series"
-        ],
-        "Routers": [
-            "Juniper MX Series",
-            "Juniper MX Series"
-        ],
-        "Storage_Devices": [
-            "Ceph Distributed Storage Clusters",
-            "NetApp FAS Series"
-        ],
-        "DNS": [
-            "Cloudflare DNS Services",
-            "AWS Route"
-        ],
-        "DHCP": [
-            "Cloud-managed DHCP",
-            "Integrated DHCP on Meraki Devices"
-        ],
-        "Default_Gateway": [
-            "Dynamically assigned via SD-WAN solutions",
-            "192.168.0.1"
-        ],
-        "DNS_Server": [
-            "10.0.0.53",
-            "192.168.1.10"
-        ],
-        "Active_Directory": [
-            "LDAP-based Directory Services",
-            "LDAP-based Directory Services"
-        ],
-        "AD_Domain_Controllers": [
-            "VM-based DCs in the cloud (Azure AD DS)",
-            "Redundant controllers spread across multiple regions"
-        ],
-        "AD_Organizational_Units": [
-            "Business unit segregation",
-            "Business unit segregation"
-        ],
-        "Bandwidth": [
-            "Branch offices with 500 Mbps broadband plus LTE backup",
-            "Branch offices with 500 Mbps broadband plus LTE backup"
-        ],
-        "Latency": [
-            "Remote office to HQ latency under 15ms",
-            "Low latency tailored for real-time trading or gaming platforms"
-        ],
-        "Num_of_Users": [
-            "500",
-            "1000"
-        ],
-        "Num_of_Systems": [
-            "1000",
-            "50000"
-        ],
-        "Backup_Storage_Solution": [
-            "Veritas NetBackup with cloud replication",
-            "Acronis Cyber Backup with hybrid cloud integration"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "IT Operations & System Administrators",
-            "IT Operations & System Administrators"
-        ],
-        "User_Authentication": [
-            "LDAP with integrated Kerberos authentication",
-            "Okta Single Sign-On (SSO) with MFA integration"
-        ],
-        "User_Authorization": [
-            "Role-Based Access Control (RBAC) via Azure AD roles",
             "Attribute-Based Access Control (ABAC) for fine-grained permissions"
         ],
         "Backup_Products": [
-            "Zerto for real-time replication and recovery",
-            "Arcserve UDP for unified data protection"
+            "Cohesity DataProtect for hyper-scale backup",
+            "Cohesity DataProtect for hyper-scale backup"
         ],
         "Num_of_Backup_Environments": [
-            "4",
-            "8"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Backup logs, recovery scripts, and audit trails",
-            "Critical configuration files for network devices and servers"
-        ],
-        "Azure_Blob": [
-            "Yes",
-            "No"
-        ],
-        "Traffic_Allowed_Out": [
-            "Route outbound traffic through dedicated proxy servers",
-            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)"
-        ],
-        "SIEM_Tool": [
-            "Sumo Logic",
-            "IBM QRadar"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Hybrid",
-            " Point-to-Point"
-        ],
-        "Cloud_Environment": [
-            "Azure",
-            "GCP"
-        ],
-        "Num_of_subscriptions": [
-            "6",
-            "4"
-        ],
-        "Subscription_Names": [
-            "Azure-DR",
-            "Azure-DR"
-        ],
-        "Firewalls": [
-            "Check Point Firewall-1",
-            "Fortinet FortiGate Next-Generation Firewall"
-        ],
-        "Archival_Storage_Accounts": [
-            "Google Cloud Coldline",
-            "IBM Cloud Object Storage - Archive"
-        ],
-        "Firewall_Management": [
-            "VMware vRealize Network Insight",
-            "Azure Firewall Manager"
-        ],
-        "Platform_Services": [
-            "Red Hat OpenShift or Docker Swarm",
-            "Google Kubernetes Engine"
-        ],
-        "Critical_Systems": [
-            "Financial trading or high-frequency systems",
-            "Financial trading or high-frequency systems"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "CCPA (California Consumer Privacy Act)",
-            "NIST 800-53"
-        ],
-        "Networking_Requirements": [
-            "Quality of Service (QoS) for critical traffic prioritization",
-            "Quality of Service (QoS) for critical traffic prioritization"
-        ],
-        "Num_of_Servers": [
-            "2000",
-            "10000"
-        ],
-        "Server_Type": [
-            "Hybrid Setups",
-            "Container Hosts"
-        ],
-        "Switches": [
-            "Brocade ICX Series",
-            "Cisco Meraki Switches"
-        ],
-        "Routers": [
-            "Juniper MX Series",
-            "MikroTik RouterBOARD Series"
-        ],
-        "Storage_Devices": [
-            "HPE 3PAR StoreServ",
-            "NetApp FAS Series"
-        ],
-        "DNS": [
-            "Infoblox DNS Appliances",
-            "AWS Route"
-        ],
-        "DHCP": [
-            "ISC DHCP Server on Linux",
-            "Integrated DHCP on Meraki Devices"
-        ],
-        "Default_Gateway": [
-            "10.1.1.1",
-            "172.16.0.1"
-        ],
-        "DNS_Server": [
-            "10.0.0.53",
-            "192.168.1.10"
-        ],
-        "Active_Directory": [
-            "LDAP-based Directory Services",
-            "Hybrid AD"
-        ],
-        "AD_Domain_Controllers": [
-            "A multi-master configuration with 4 DCs",
-            "VM-based DCs in the cloud (Azure AD DS)"
-        ],
-        "AD_Organizational_Units": [
-            "Department-based OUs",
-            "Location-based OUs"
-        ],
-        "Bandwidth": [
-            "Branch offices with 500 Mbps broadband plus LTE backup",
-            "Aggregated bandwidth for virtualized or containerized environments"
-        ],
-        "Latency": [
-            "Inter-datacenter latency below 20ms",
-            "Low latency tailored for real-time trading or gaming platforms"
-        ],
-        "Num_of_Users": [
-            "500000",
-            "500000"
-        ],
-        "Num_of_Systems": [
-            "5000",
-            "2000"
-        ],
-        "Backup_Storage_Solution": [
-            "Zerto for continuous data protection and replication",
-            "Acronis Cyber Backup with hybrid cloud integration"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "IT Operations & System Administrators",
-            "Business Continuity Planners"
-        ],
-        "User_Authentication": [
-            "Biometric solutions",
-            "Biometric solutions"
-        ],
-        "User_Authorization": [
-            "Context-aware controls based on location, time, and device type",
-            "Custom policies enforced via Cloud Access Security Brokers (CASB)"
-        ],
-        "Backup_Products": [
-            "Acronis Cyber Backup with cloud integration",
-            "Arcserve UDP for unified data protection"
-        ],
-        "Num_of_Backup_Environments": [
-            "4",
-            "6"
+            "10",
+            "3"
         ],
         "Technologies_to_Be_Placed_in_Vault": [
             "Regulatory compliance documentation and audit records",
@@ -1041,118 +741,118 @@
             "No"
         ],
         "Traffic_Allowed_Out": [
-            "Route outbound traffic through dedicated proxy servers",
-            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)"
+            "Whitelist approved IP ranges and protocols only",
+            "Route outbound traffic through dedicated proxy servers"
         ],
         "SIEM_Tool": [
-            "Sumo Logic",
-            "IBM QRadar"
+            "LogRhythm",
+            "Rapid7 InsightIDR"
         ]
     },
     {
         "Network_Model": [
-            " Point-to-Point",
-            "Hybrid"
+            "Distributed Network",
+            " Point-to-Point"
         ],
         "Cloud_Environment": [
             "Oracle Cloud",
-            "Multi-Cloud"
+            "Oracle Cloud"
         ],
         "Num_of_subscriptions": [
-            "4",
-            "4"
+            "7",
+            "5"
         ],
         "Subscription_Names": [
-            "Oracle-Analytics",
-            "Oracle-Analytics"
+            "Azure-Compliance",
+            "Azure-Compliance"
         ],
         "Firewalls": [
             "Juniper SRX Series",
-            "Fortinet FortiGate Next-Generation Firewall"
+            "SonicWall NSA Series"
         ],
         "Archival_Storage_Accounts": [
-            "Google Cloud Coldline",
-            "IBM Cloud Object Storage - Archive"
+            "Dell EMC Isilon for Archival Data",
+            "Dell EMC Isilon for Archival Data"
         ],
         "Firewall_Management": [
             "Juniper Networks Junos Space Security Director",
-            "Juniper Networks Junos Space Security Director"
+            "VMware vRealize Network Insight"
         ],
         "Platform_Services": [
-            "Azure Functions",
+            "IBM Cloud Kubernetes Service",
             "Serverless Framework on Google Cloud Functions"
         ],
         "Critical_Systems": [
-            "Oracle E-Business Suite",
-            "Oracle E-Business Suite"
+            "Custom enterprise applications",
+            "Salesforce CRM/ERP integration"
         ],
         "Compliance_Regulatory_Requirements": [
             "ISO 27001/27002",
             "NIST 800-53"
         ],
         "Networking_Requirements": [
-            "Low jitter and packet loss for VoIP services",
-            "Redundant connections with multi-ISP support"
+            "Quality of Service (QoS) for critical traffic prioritization",
+            "Load balancing across multiple data centers"
         ],
         "Num_of_Servers": [
-            "10",
-            "50"
+            "10000",
+            "500"
         ],
         "Server_Type": [
-            "Blade Servers",
+            "Container Hosts",
             "Hybrid Setups"
         ],
         "Switches": [
-            "Brocade ICX Series",
-            "Brocade ICX Series"
+            "Cisco Meraki Switches",
+            "Dell Networking N-Series"
         ],
         "Routers": [
-            "Juniper MX Series",
-            "Huawei AR Series"
+            "Cisco ASR 1000 Series",
+            "Juniper MX Series"
         ],
         "Storage_Devices": [
-            "Ceph Distributed Storage Clusters",
-            "HPE 3PAR StoreServ"
+            "Pure Storage FlashArray",
+            "Pure Storage FlashArray"
         ],
         "DNS": [
-            "Google Cloud DNS",
+            "Cloudflare DNS Services",
             "Cloudflare DNS Services"
         ],
         "DHCP": [
             "Infoblox DHCP Solutions",
-            "Integrated DHCP on Meraki Devices"
+            "Cisco Prime Network Registrar"
         ],
         "Default_Gateway": [
-            "10.0.0.1",
-            "172.16.0.1"
+            "10.1.1.1",
+            "10.0.0.1"
         ],
         "DNS_Server": [
-            "10.0.0.53",
-            "10.0.0.53"
+            "8.8.8.8",
+            "8.8.8.8"
         ],
         "Active_Directory": [
-            "LDAP-based Directory Services",
-            "Hybrid AD"
+            "Hybrid AD",
+            "Managed AD Services"
         ],
         "AD_Domain_Controllers": [
-            "Geographically distributed controllers for global reach",
-            "VM-based DCs in the cloud (Azure AD DS)"
+            "3 in the primary site and 2 in a DR site",
+            "Geographically distributed controllers for global reach"
         ],
         "AD_Organizational_Units": [
             "Business unit segregation",
-            "Role-based OUs"
+            "Business unit segregation"
         ],
         "Bandwidth": [
             "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet",
-            "Dual 1 Gbps connections at each site for redundancy"
+            "Branch offices with 500 Mbps broadband plus LTE backup"
         ],
         "Latency": [
-            "Inter-datacenter latency below 20ms",
-            "Remote office to HQ latency under 15ms"
+            "Low latency tailored for real-time trading or gaming platforms",
+            "Low latency tailored for real-time trading or gaming platforms"
         ],
         "Num_of_Users": [
-            "500",
-            "5000"
+            "5000",
+            "100"
         ],
         "Num_of_Systems": [
             "200",
@@ -1160,931 +860,31 @@
         ],
         "Backup_Storage_Solution": [
             "Veritas NetBackup with cloud replication",
-            "Cohesity DataProtect Platform"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "Disaster Recovery Coordinators",
-            "Business Continuity Planners"
-        ],
-        "User_Authentication": [
-            "Biometric solutions",
-            "RSA SecurID Tokens for two-factor authentication"
-        ],
-        "User_Authorization": [
-            "Role-Based Access Control (RBAC) via Azure AD roles",
-            "Role-Based Access Control (RBAC) via Azure AD roles"
-        ],
-        "Backup_Products": [
-            "Veritas NetBackup for large-scale environments",
-            "Veritas NetBackup for large-scale environments"
-        ],
-        "Num_of_Backup_Environments": [
-            "5",
-            "10"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Backup logs, recovery scripts, and audit trails",
-            "Regulatory compliance documentation and audit records"
-        ],
-        "Azure_Blob": [
-            "No",
-            "No"
-        ],
-        "Traffic_Allowed_Out": [
-            "Whitelist approved IP ranges and protocols only",
-            "Whitelist approved IP ranges and protocols only"
-        ],
-        "SIEM_Tool": [
-            "Elastic SIEM integrated with the ELK Stack",
-            "Sumo Logic"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Hybrid",
-            "Full Mesh"
-        ],
-        "Cloud_Environment": [
-            "Multi-Cloud",
-            "IBM Cloud"
-        ],
-        "Num_of_subscriptions": [
-            "5",
-            "8"
-        ],
-        "Subscription_Names": [
-            "Azure-DR",
-            "IBMCloud-Test"
-        ],
-        "Firewalls": [
-            "VMware NSX Distributed Firewall",
-            "VMware NSX Distributed Firewall"
-        ],
-        "Archival_Storage_Accounts": [
-            "IBM Cloud Object Storage - Archive",
-            "Dell EMC Isilon for Archival Data"
-        ],
-        "Firewall_Management": [
-            "Juniper Networks Junos Space Security Director",
-            "Azure Firewall Manager"
-        ],
-        "Platform_Services": [
-            "Google Kubernetes Engine",
-            "Azure Functions"
-        ],
-        "Critical_Systems": [
-            "Financial trading or high-frequency systems",
-            "Financial trading or high-frequency systems"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "ISO 27001/27002",
-            "CCPA (California Consumer Privacy Act)"
-        ],
-        "Networking_Requirements": [
-            "Zero downtime requirements (e.g., 99.99% SLA)",
-            "Zero downtime requirements (e.g., 99.99% SLA)"
-        ],
-        "Num_of_Servers": [
-            "100",
-            "500"
-        ],
-        "Server_Type": [
-            "Rack-mounted Servers",
-            "Container Hosts"
-        ],
-        "Switches": [
-            "Brocade ICX Series",
-            "Dell Networking N-Series"
-        ],
-        "Routers": [
-            "Juniper MX Series",
-            "Cisco ASR 1000 Series"
-        ],
-        "Storage_Devices": [
-            "HPE 3PAR StoreServ",
-            "Pure Storage FlashArray"
-        ],
-        "DNS": [
-            "Cloudflare DNS Services",
-            "Google Cloud DNS"
-        ],
-        "DHCP": [
-            "ISC DHCP Server on Linux",
-            "Infoblox DHCP Solutions"
-        ],
-        "Default_Gateway": [
-            "Dynamically assigned via SD-WAN solutions",
-            "10.1.1.1"
-        ],
-        "DNS_Server": [
-            "10.0.0.53",
-            "10.0.0.53"
-        ],
-        "Active_Directory": [
-            "Managed AD Services",
-            "Managed AD Services"
-        ],
-        "AD_Domain_Controllers": [
-            "VM-based DCs in the cloud (Azure AD DS)",
-            "Geographically distributed controllers for global reach"
-        ],
-        "AD_Organizational_Units": [
-            "Department-based OUs",
-            "Department-based OUs"
-        ],
-        "Bandwidth": [
-            "Branch offices with 500 Mbps broadband plus LTE backup",
-            "Data Center: 40 Gbps high-throughput links"
-        ],
-        "Latency": [
-            "Monitoring tools ensuring latency stays within predefined thresholds",
-            "Global WAN connectivity maintained under 50ms"
-        ],
-        "Num_of_Users": [
-            "500",
-            "500000"
-        ],
-        "Num_of_Systems": [
-            "100",
-            "2000"
-        ],
-        "Backup_Storage_Solution": [
-            "Veritas NetBackup with cloud replication",
-            "Acronis Cyber Backup with hybrid cloud integration"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "Disaster Recovery Coordinators",
-            "IT Operations & System Administrators"
-        ],
-        "User_Authentication": [
-            "Ping Identity with SAML-based authentication",
-            "RSA SecurID Tokens for two-factor authentication"
-        ],
-        "User_Authorization": [
-            "Custom policies enforced via Cloud Access Security Brokers (CASB)",
-            "Attribute-Based Access Control (ABAC) for fine-grained permissions"
-        ],
-        "Backup_Products": [
-            "Veritas NetBackup for large-scale environments",
-            "Acronis Cyber Backup with cloud integration"
-        ],
-        "Num_of_Backup_Environments": [
-            "1",
-            "2"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Critical configuration files for network devices and servers",
-            "Digital certificates and SSL/TLS keys"
-        ],
-        "Azure_Blob": [
-            "No",
-            "Yes"
-        ],
-        "Traffic_Allowed_Out": [
-            "Route outbound traffic through dedicated proxy servers",
-            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)"
-        ],
-        "SIEM_Tool": [
-            "Sumo Logic",
-            "LogRhythm"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Mesh Network",
-            "Distributed Network"
-        ],
-        "Cloud_Environment": [
-            "GCP",
-            "AWS"
-        ],
-        "Num_of_subscriptions": [
-            "7",
-            "3"
-        ],
-        "Subscription_Names": [
-            "Azure-DR",
-            "Azure-DR"
-        ],
-        "Firewalls": [
-            "Check Point Firewall-1",
-            "Fortinet FortiGate Next-Generation Firewall"
-        ],
-        "Archival_Storage_Accounts": [
-            "Dell EMC Isilon for Archival Data",
-            "Dell EMC Isilon for Archival Data"
-        ],
-        "Firewall_Management": [
-            "Fortinet FortiManager",
-            "Juniper Networks Junos Space Security Director"
-        ],
-        "Platform_Services": [
-            "IBM Cloud Kubernetes Service",
-            "IBM Cloud Kubernetes Service"
-        ],
-        "Critical_Systems": [
-            "Business Intelligence platforms",
-            "Salesforce CRM/ERP integration"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "NIST 800-53",
-            "FedRAMP"
-        ],
-        "Networking_Requirements": [
-            "Redundant connections with multi-ISP support",
-            "Quality of Service (QoS) for critical traffic prioritization"
-        ],
-        "Num_of_Servers": [
-            "100",
-            "200"
-        ],
-        "Server_Type": [
-            "Rack-mounted Servers",
-            "Container Hosts"
-        ],
-        "Switches": [
-            "Juniper EX Series",
-            "Juniper EX Series"
-        ],
-        "Routers": [
-            "MikroTik RouterBOARD Series",
-            "Cisco ASR 1000 Series"
-        ],
-        "Storage_Devices": [
-            "IBM FlashSystem",
-            "Ceph Distributed Storage Clusters"
-        ],
-        "DNS": [
-            "BIND on Linux",
-            "BIND on Linux"
-        ],
-        "DHCP": [
-            "ISC DHCP Server on Linux",
-            "Integrated DHCP on Meraki Devices"
-        ],
-        "Default_Gateway": [
-            "172.16.0.1",
-            "192.168.0.1"
-        ],
-        "DNS_Server": [
-            "10.0.0.53",
-            "10.0.0.53"
-        ],
-        "Active_Directory": [
-            "Managed AD Services",
-            "Managed AD Services"
-        ],
-        "AD_Domain_Controllers": [
-            "Geographically distributed controllers for global reach",
-            "3 in the primary site and 2 in a DR site"
-        ],
-        "AD_Organizational_Units": [
-            "Business unit segregation",
-            "Role-based OUs"
-        ],
-        "Bandwidth": [
-            "Dual 1 Gbps connections at each site for redundancy",
-            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet"
-        ],
-        "Latency": [
-            "Global WAN connectivity maintained under 50ms",
-            "Monitoring tools ensuring latency stays within predefined thresholds"
-        ],
-        "Num_of_Users": [
-            "100",
-            "5000"
-        ],
-        "Num_of_Systems": [
-            "50000",
-            "10000"
-        ],
-        "Backup_Storage_Solution": [
-            "Acronis Cyber Backup with hybrid cloud integration",
-            "Acronis Cyber Backup with hybrid cloud integration"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "Data Protection Officers or Incident Response Team members",
-            "Business Continuity Planners"
-        ],
-        "User_Authentication": [
-            "Ping Identity with SAML-based authentication",
-            "Ping Identity with SAML-based authentication"
-        ],
-        "User_Authorization": [
-            "Zero Trust access models with continuous verification",
-            "Attribute-Based Access Control (ABAC) for fine-grained permissions"
-        ],
-        "Backup_Products": [
-            "Arcserve UDP for unified data protection",
-            "Arcserve UDP for unified data protection"
-        ],
-        "Num_of_Backup_Environments": [
-            "6",
-            "3"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Regulatory compliance documentation and audit records",
-            "Digital certificates and SSL/TLS keys"
-        ],
-        "Azure_Blob": [
-            "No",
-            "Yes"
-        ],
-        "Traffic_Allowed_Out": [
-            "Route outbound traffic through dedicated proxy servers",
-            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)"
-        ],
-        "SIEM_Tool": [
-            "Elastic SIEM integrated with the ELK Stack",
-            "Elastic SIEM integrated with the ELK Stack"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Full Mesh",
-            "Full Mesh"
-        ],
-        "Cloud_Environment": [
-            "Private Cloud",
-            "Multi-Cloud"
-        ],
-        "Num_of_subscriptions": [
-            "1",
-            "4"
-        ],
-        "Subscription_Names": [
-            "GCP-Prod",
-            "Oracle-Analytics"
-        ],
-        "Firewalls": [
-            "Juniper SRX Series",
-            "Juniper SRX Series"
-        ],
-        "Archival_Storage_Accounts": [
-            "IBM Cloud Object Storage - Archive",
-            "Google Cloud Coldline"
-        ],
-        "Firewall_Management": [
-            "VMware vRealize Network Insight",
-            "Juniper Networks Junos Space Security Director"
-        ],
-        "Platform_Services": [
-            "Serverless Framework on Google Cloud Functions",
-            "Azure Functions"
-        ],
-        "Critical_Systems": [
-            "Financial trading or high-frequency systems",
-            "Custom enterprise applications"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "NIST 800-53",
-            "ISO 27001/27002"
-        ],
-        "Networking_Requirements": [
-            "Load balancing across multiple data centers",
-            "Redundant connections with multi-ISP support"
-        ],
-        "Num_of_Servers": [
-            "2000",
-            "2000"
-        ],
-        "Server_Type": [
-            "Hybrid Setups",
-            "Blade Servers"
-        ],
-        "Switches": [
-            "Cisco Meraki Switches",
-            "Juniper EX Series"
-        ],
-        "Routers": [
-            "MikroTik RouterBOARD Series",
-            "Cisco ASR 1000 Series"
-        ],
-        "Storage_Devices": [
-            "IBM FlashSystem",
-            "Pure Storage FlashArray"
-        ],
-        "DNS": [
-            "BIND on Linux",
-            "Cloudflare DNS Services"
-        ],
-        "DHCP": [
-            "Cloud-managed DHCP",
-            "Cisco Prime Network Registrar"
-        ],
-        "Default_Gateway": [
-            "10.1.1.1",
-            "10.1.1.1"
-        ],
-        "DNS_Server": [
-            "192.168.1.10",
-            "10.0.0.53"
-        ],
-        "Active_Directory": [
-            "ADFS",
-            "Azure Active Directory Domain Services"
-        ],
-        "AD_Domain_Controllers": [
-            "A multi-master configuration with 4 DCs",
-            "A multi-master configuration with 4 DCs"
-        ],
-        "AD_Organizational_Units": [
-            "Business unit segregation",
-            "Department-based OUs"
-        ],
-        "Bandwidth": [
-            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet",
-            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet"
-        ],
-        "Latency": [
-            "Monitoring tools ensuring latency stays within predefined thresholds",
-            "Monitoring tools ensuring latency stays within predefined thresholds"
-        ],
-        "Num_of_Users": [
-            "100",
-            "500"
-        ],
-        "Num_of_Systems": [
-            "50000",
-            "2000"
-        ],
-        "Backup_Storage_Solution": [
-            "Veritas NetBackup with cloud replication",
-            "Zerto for continuous data protection and replication"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "Data Protection Officers or Incident Response Team members",
-            "Data Protection Officers or Incident Response Team members"
-        ],
-        "User_Authentication": [
-            "Okta Single Sign-On (SSO) with MFA integration",
-            "RSA SecurID Tokens for two-factor authentication"
-        ],
-        "User_Authorization": [
-            "Role-Based Access Control (RBAC) via Azure AD roles",
-            "Custom policies enforced via Cloud Access Security Brokers (CASB)"
-        ],
-        "Backup_Products": [
-            "Veritas NetBackup for large-scale environments",
-            "Arcserve UDP for unified data protection"
-        ],
-        "Num_of_Backup_Environments": [
-            "7",
-            "5"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Critical configuration files for network devices and servers",
-            "Critical configuration files for network devices and servers"
-        ],
-        "Azure_Blob": [
-            "Yes",
-            "No"
-        ],
-        "Traffic_Allowed_Out": [
-            "Route outbound traffic through dedicated proxy servers",
-            "Route outbound traffic through dedicated proxy servers"
-        ],
-        "SIEM_Tool": [
-            "Elastic SIEM integrated with the ELK Stack",
-            "IBM QRadar"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Hybrid",
-            "Mesh Network"
-        ],
-        "Cloud_Environment": [
-            "Private Cloud",
-            "GCP"
-        ],
-        "Num_of_subscriptions": [
-            "9",
-            "7"
-        ],
-        "Subscription_Names": [
-            "Azure-DR",
-            "Azure-Compliance"
-        ],
-        "Firewalls": [
-            "SonicWall NSA Series",
-            "SonicWall NSA Series"
-        ],
-        "Archival_Storage_Accounts": [
-            "Oracle Cloud Archive Storage",
-            "Google Cloud Coldline"
-        ],
-        "Firewall_Management": [
-            "VMware vRealize Network Insight",
-            "Fortinet FortiManager"
-        ],
-        "Platform_Services": [
-            "Azure Functions",
-            "IBM Cloud Kubernetes Service"
-        ],
-        "Critical_Systems": [
-            "Business Intelligence platforms",
-            "Oracle E-Business Suite"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "CCPA (California Consumer Privacy Act)",
-            "SOX (Sarbanes-Oxley Act)"
-        ],
-        "Networking_Requirements": [
-            "Zero downtime requirements (e.g., 99.99% SLA)",
-            "Quality of Service (QoS) for critical traffic prioritization"
-        ],
-        "Num_of_Servers": [
-            "50",
-            "100"
-        ],
-        "Server_Type": [
-            "Rack-mounted Servers",
-            "Hybrid Setups"
-        ],
-        "Switches": [
-            "Brocade ICX Series",
-            "Juniper EX Series"
-        ],
-        "Routers": [
-            "Cisco ASR 1000 Series",
-            "Cisco ASR 1000 Series"
-        ],
-        "Storage_Devices": [
-            "NetApp FAS Series",
-            "Pure Storage FlashArray"
-        ],
-        "DNS": [
-            "Cloudflare DNS Services",
-            "AWS Route"
-        ],
-        "DHCP": [
-            "Integrated DHCP on Meraki Devices",
-            "Integrated DHCP on Meraki Devices"
-        ],
-        "Default_Gateway": [
-            "Dynamically assigned via SD-WAN solutions",
-            "Dynamically assigned via SD-WAN solutions"
-        ],
-        "DNS_Server": [
-            "10.0.0.53",
-            "10.0.0.53"
-        ],
-        "Active_Directory": [
-            "Managed AD Services",
-            "ADFS"
-        ],
-        "AD_Domain_Controllers": [
-            "A multi-master configuration with 4 DCs",
-            "Redundant controllers spread across multiple regions"
-        ],
-        "AD_Organizational_Units": [
-            "Department-based OUs",
-            "Temporary contractor or vendor OUs"
-        ],
-        "Bandwidth": [
-            "Branch offices with 500 Mbps broadband plus LTE backup",
-            "Data Center: 40 Gbps high-throughput links"
-        ],
-        "Latency": [
-            "Global WAN connectivity maintained under 50ms",
-            "Global WAN connectivity maintained under 50ms"
-        ],
-        "Num_of_Users": [
-            "500",
-            "500000"
-        ],
-        "Num_of_Systems": [
-            "100",
-            "10000"
-        ],
-        "Backup_Storage_Solution": [
-            "Cohesity DataProtect Platform",
-            "Cohesity DataProtect Platform"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "Disaster Recovery Coordinators",
-            "Data Protection Officers or Incident Response Team members"
-        ],
-        "User_Authentication": [
-            "Ping Identity with SAML-based authentication",
-            "RSA SecurID Tokens for two-factor authentication"
-        ],
-        "User_Authorization": [
-            "Role-Based Access Control (RBAC) via Azure AD roles",
-            "Context-aware controls based on location, time, and device type"
-        ],
-        "Backup_Products": [
-            "Veritas NetBackup for large-scale environments",
-            "Zerto for real-time replication and recovery"
-        ],
-        "Num_of_Backup_Environments": [
-            "9",
-            "6"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Regulatory compliance documentation and audit records",
-            "Regulatory compliance documentation and audit records"
-        ],
-        "Azure_Blob": [
-            "Yes",
-            "No"
-        ],
-        "Traffic_Allowed_Out": [
-            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)",
-            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)"
-        ],
-        "SIEM_Tool": [
-            "LogRhythm",
-            "IBM QRadar"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Hybrid",
-            "Distributed Network"
-        ],
-        "Cloud_Environment": [
-            "Private Cloud",
-            "Oracle Cloud"
-        ],
-        "Num_of_subscriptions": [
-            "3",
-            "3"
-        ],
-        "Subscription_Names": [
-            "Azure-DR",
-            "Oracle-Analytics"
-        ],
-        "Firewalls": [
-            "Fortinet FortiGate Next-Generation Firewall",
-            "VMware NSX Distributed Firewall"
-        ],
-        "Archival_Storage_Accounts": [
-            "NetApp StorageGRID",
-            "NetApp StorageGRID"
-        ],
-        "Firewall_Management": [
-            "Cisco Firepower Management Center",
-            "VMware vRealize Network Insight"
-        ],
-        "Platform_Services": [
-            "Serverless Framework on Google Cloud Functions",
-            "Red Hat OpenShift or Docker Swarm"
-        ],
-        "Critical_Systems": [
-            "Business Intelligence platforms",
-            "Business Intelligence platforms"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "CCPA (California Consumer Privacy Act)",
-            "CCPA (California Consumer Privacy Act)"
-        ],
-        "Networking_Requirements": [
-            "Redundant connections with multi-ISP support",
-            "Zero downtime requirements (e.g., 99.99% SLA)"
-        ],
-        "Num_of_Servers": [
-            "1000",
-            "5000"
-        ],
-        "Server_Type": [
-            "Hybrid Setups",
-            "Hybrid Setups"
-        ],
-        "Switches": [
-            "Brocade ICX Series",
-            "Cisco Meraki Switches"
-        ],
-        "Routers": [
-            "Huawei AR Series",
-            "MikroTik RouterBOARD Series"
-        ],
-        "Storage_Devices": [
-            "Pure Storage FlashArray",
-            "HPE 3PAR StoreServ"
-        ],
-        "DNS": [
-            "BIND on Linux",
-            "AWS Route"
-        ],
-        "DHCP": [
-            "Cisco Prime Network Registrar",
-            "Cloud-managed DHCP"
-        ],
-        "Default_Gateway": [
-            "Dynamically assigned via SD-WAN solutions",
-            "10.0.0.1"
-        ],
-        "DNS_Server": [
-            "10.0.0.53",
-            "10.0.0.53"
-        ],
-        "Active_Directory": [
-            "Hybrid AD",
-            "ADFS"
-        ],
-        "AD_Domain_Controllers": [
-            "A multi-master configuration with 4 DCs",
-            "A multi-master configuration with 4 DCs"
-        ],
-        "AD_Organizational_Units": [
-            "Department-based OUs",
-            "Department-based OUs"
-        ],
-        "Bandwidth": [
-            "Aggregated bandwidth for virtualized or containerized environments",
-            "Data Center: 40 Gbps high-throughput links"
-        ],
-        "Latency": [
-            "Global WAN connectivity maintained under 50ms",
-            "Monitoring tools ensuring latency stays within predefined thresholds"
-        ],
-        "Num_of_Users": [
-            "100",
-            "10000"
-        ],
-        "Num_of_Systems": [
-            "20000",
-            "2000"
-        ],
-        "Backup_Storage_Solution": [
-            "Cohesity DataProtect Platform",
             "Veritas NetBackup with cloud replication"
         ],
         "User_Roles_with_IRE_Access": [
-            "IT Operations & System Administrators",
-            "Disaster Recovery Coordinators"
-        ],
-        "User_Authentication": [
-            "LDAP with integrated Kerberos authentication",
-            "Biometric solutions"
-        ],
-        "User_Authorization": [
-            "Attribute-Based Access Control (ABAC) for fine-grained permissions",
-            "Role-Based Access Control (RBAC) via Azure AD roles"
-        ],
-        "Backup_Products": [
-            "Arcserve UDP for unified data protection",
-            "Veritas NetBackup for large-scale environments"
-        ],
-        "Num_of_Backup_Environments": [
-            "7",
-            "3"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Backup logs, recovery scripts, and audit trails",
-            "Regulatory compliance documentation and audit records"
-        ],
-        "Azure_Blob": [
-            "No",
-            "No"
-        ],
-        "Traffic_Allowed_Out": [
-            "Whitelist approved IP ranges and protocols only",
-            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)"
-        ],
-        "SIEM_Tool": [
-            "Sumo Logic",
-            "LogRhythm"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Mesh Network",
-            "Hybrid"
-        ],
-        "Cloud_Environment": [
-            "Azure",
-            "Oracle Cloud"
-        ],
-        "Num_of_subscriptions": [
-            "5",
-            "1"
-        ],
-        "Subscription_Names": [
-            "Azure-DR",
-            "Oracle-Analytics"
-        ],
-        "Firewalls": [
-            "Juniper SRX Series",
-            "SonicWall NSA Series"
-        ],
-        "Archival_Storage_Accounts": [
-            "IBM Cloud Object Storage - Archive",
-            "Oracle Cloud Archive Storage"
-        ],
-        "Firewall_Management": [
-            "Cisco Firepower Management Center",
-            "Juniper Networks Junos Space Security Director"
-        ],
-        "Platform_Services": [
-            "Azure Functions",
-            "Google Kubernetes Engine"
-        ],
-        "Critical_Systems": [
-            "Financial trading or high-frequency systems",
-            "Oracle E-Business Suite"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "CCPA (California Consumer Privacy Act)",
-            "NIST 800-53"
-        ],
-        "Networking_Requirements": [
-            "Redundant connections with multi-ISP support",
-            "Low jitter and packet loss for VoIP services"
-        ],
-        "Num_of_Servers": [
-            "10000",
-            "50"
-        ],
-        "Server_Type": [
-            "Rack-mounted Servers",
-            "Hybrid Setups"
-        ],
-        "Switches": [
-            "Dell Networking N-Series",
-            "Extreme Networks Summit Series"
-        ],
-        "Routers": [
-            "Cisco ASR 1000 Series",
-            "MikroTik RouterBOARD Series"
-        ],
-        "Storage_Devices": [
-            "NetApp FAS Series",
-            "IBM FlashSystem"
-        ],
-        "DNS": [
-            "Cloudflare DNS Services",
-            "BIND on Linux"
-        ],
-        "DHCP": [
-            "Cloud-managed DHCP",
-            "Integrated DHCP on Meraki Devices"
-        ],
-        "Default_Gateway": [
-            "10.1.1.1",
-            "192.168.0.1"
-        ],
-        "DNS_Server": [
-            "10.10.10.10",
-            "10.0.0.53"
-        ],
-        "Active_Directory": [
-            "Hybrid AD",
-            "LDAP-based Directory Services"
-        ],
-        "AD_Domain_Controllers": [
-            "Geographically distributed controllers for global reach",
-            "3 in the primary site and 2 in a DR site"
-        ],
-        "AD_Organizational_Units": [
-            "Location-based OUs",
-            "Business unit segregation"
-        ],
-        "Bandwidth": [
-            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet",
-            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet"
-        ],
-        "Latency": [
-            "Inter-datacenter latency below 20ms",
-            "Low latency tailored for real-time trading or gaming platforms"
-        ],
-        "Num_of_Users": [
-            "10000",
-            "5000"
-        ],
-        "Num_of_Systems": [
-            "1000",
-            "200"
-        ],
-        "Backup_Storage_Solution": [
-            "Zerto for continuous data protection and replication",
-            "Acronis Cyber Backup with hybrid cloud integration"
-        ],
-        "User_Roles_with_IRE_Access": [
             "Data Protection Officers or Incident Response Team members",
             "Data Protection Officers or Incident Response Team members"
         ],
         "User_Authentication": [
             "Okta Single Sign-On (SSO) with MFA integration",
-            "Biometric solutions"
+            "Ping Identity with SAML-based authentication"
         ],
         "User_Authorization": [
-            "Zero Trust access models with continuous verification",
-            "Role-Based Access Control (RBAC) via Azure AD roles"
+            "Attribute-Based Access Control (ABAC) for fine-grained permissions",
+            "Attribute-Based Access Control (ABAC) for fine-grained permissions"
         ],
         "Backup_Products": [
-            "Acronis Cyber Backup with cloud integration",
-            "Cohesity DataProtect for hyper-scale backup"
+            "Arcserve UDP for unified data protection",
+            "Acronis Cyber Backup with cloud integration"
         ],
         "Num_of_Backup_Environments": [
-            "9",
-            "4"
+            "6",
+            "1"
         ],
         "Technologies_to_Be_Placed_in_Vault": [
             "Regulatory compliance documentation and audit records",
-            "Regulatory compliance documentation and audit records"
+            "Digital certificates and SSL/TLS keys"
         ],
         "Azure_Blob": [
             "No",
@@ -2096,578 +896,128 @@
         ],
         "SIEM_Tool": [
             "Rapid7 InsightIDR",
-            "Elastic SIEM integrated with the ELK Stack"
+            "IBM QRadar"
         ]
     },
     {
         "Network_Model": [
-            "Mesh Network",
-            " Point-to-Point"
+            "Distributed Network",
+            "Full Mesh"
         ],
         "Cloud_Environment": [
             "GCP",
             "IBM Cloud"
         ],
         "Num_of_subscriptions": [
-            "1",
-            "7"
-        ],
-        "Subscription_Names": [
-            "Azure-DR",
-            "Azure-Compliance"
-        ],
-        "Firewalls": [
-            "Juniper SRX Series",
-            "VMware NSX Distributed Firewall"
-        ],
-        "Archival_Storage_Accounts": [
-            "NetApp StorageGRID",
-            "Oracle Cloud Archive Storage"
-        ],
-        "Firewall_Management": [
-            "Azure Firewall Manager",
-            "Fortinet FortiManager"
-        ],
-        "Platform_Services": [
-            "Azure Functions",
-            "Google Kubernetes Engine"
-        ],
-        "Critical_Systems": [
-            "Financial trading or high-frequency systems",
-            "Financial trading or high-frequency systems"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "ISO 27001/27002",
-            "CCPA (California Consumer Privacy Act)"
-        ],
-        "Networking_Requirements": [
-            "Redundant connections with multi-ISP support",
-            "Quality of Service (QoS) for critical traffic prioritization"
-        ],
-        "Num_of_Servers": [
-            "500",
-            "2000"
-        ],
-        "Server_Type": [
-            "Blade Servers",
-            "Container Hosts"
-        ],
-        "Switches": [
-            "Juniper EX Series",
-            "Juniper EX Series"
-        ],
-        "Routers": [
-            "MikroTik RouterBOARD Series",
-            "Arista 7280 Series"
-        ],
-        "Storage_Devices": [
-            "Pure Storage FlashArray",
-            "Pure Storage FlashArray"
-        ],
-        "DNS": [
-            "AWS Route",
-            "Google Cloud DNS"
-        ],
-        "DHCP": [
-            "Integrated DHCP on Meraki Devices",
-            "Integrated DHCP on Meraki Devices"
-        ],
-        "Default_Gateway": [
-            "Dynamically assigned via SD-WAN solutions",
-            "192.168.0.1"
-        ],
-        "DNS_Server": [
-            "10.10.10.10",
-            "8.8.8.8"
-        ],
-        "Active_Directory": [
-            "Hybrid AD",
-            "Azure Active Directory Domain Services"
-        ],
-        "AD_Domain_Controllers": [
-            "Geographically distributed controllers for global reach",
-            "3 in the primary site and 2 in a DR site"
-        ],
-        "AD_Organizational_Units": [
-            "Location-based OUs",
-            "Business unit segregation"
-        ],
-        "Bandwidth": [
-            "Branch offices with 500 Mbps broadband plus LTE backup",
-            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet"
-        ],
-        "Latency": [
-            "Inter-datacenter latency below 20ms",
-            "Monitoring tools ensuring latency stays within predefined thresholds"
-        ],
-        "Num_of_Users": [
-            "20000",
-            "200000"
-        ],
-        "Num_of_Systems": [
-            "10000",
-            "2000"
-        ],
-        "Backup_Storage_Solution": [
-            "Cohesity DataProtect Platform",
-            "Commvault with integrated tape libraries for long-term retention"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "Business Continuity Planners",
-            "Disaster Recovery Coordinators"
-        ],
-        "User_Authentication": [
-            "Biometric solutions",
-            "Ping Identity with SAML-based authentication"
-        ],
-        "User_Authorization": [
-            "Zero Trust access models with continuous verification",
-            "Zero Trust access models with continuous verification"
-        ],
-        "Backup_Products": [
-            "Acronis Cyber Backup with cloud integration",
-            "Arcserve UDP for unified data protection"
-        ],
-        "Num_of_Backup_Environments": [
-            "5",
-            "7"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Backup logs, recovery scripts, and audit trails",
-            "Digital certificates and SSL/TLS keys"
-        ],
-        "Azure_Blob": [
-            "No",
-            "Yes"
-        ],
-        "Traffic_Allowed_Out": [
-            "Whitelist approved IP ranges and protocols only",
-            "Route outbound traffic through dedicated proxy servers"
-        ],
-        "SIEM_Tool": [
-            "Elastic SIEM integrated with the ELK Stack",
-            "Elastic SIEM integrated with the ELK Stack"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Hybrid",
-            "Distributed Network"
-        ],
-        "Cloud_Environment": [
-            "Azure",
-            "Private Cloud"
-        ],
-        "Num_of_subscriptions": [
-            "3",
-            "5"
+            "8",
+            "1"
         ],
         "Subscription_Names": [
             "GCP-Prod",
-            "GCP-Prod"
+            "Azure-DR"
         ],
         "Firewalls": [
             "Check Point Firewall-1",
             "SonicWall NSA Series"
         ],
         "Archival_Storage_Accounts": [
-            "Dell EMC Isilon for Archival Data",
-            "Google Cloud Coldline"
+            "Oracle Cloud Archive Storage",
+            "Oracle Cloud Archive Storage"
         ],
         "Firewall_Management": [
             "Juniper Networks Junos Space Security Director",
-            "Juniper Networks Junos Space Security Director"
+            "Cisco Firepower Management Center"
         ],
         "Platform_Services": [
             "Google Kubernetes Engine",
             "Azure Functions"
         ],
         "Critical_Systems": [
-            "Custom enterprise applications",
-            "Salesforce CRM/ERP integration"
+            "Business Intelligence platforms",
+            "Oracle E-Business Suite"
         ],
         "Compliance_Regulatory_Requirements": [
-            "FedRAMP",
-            "ISO 27001/27002"
-        ],
-        "Networking_Requirements": [
-            "Low jitter and packet loss for VoIP services",
-            "Load balancing across multiple data centers"
-        ],
-        "Num_of_Servers": [
-            "500",
-            "5000"
-        ],
-        "Server_Type": [
-            "Container Hosts",
-            "Hybrid Setups"
-        ],
-        "Switches": [
-            "Cisco Meraki Switches",
-            "Extreme Networks Summit Series"
-        ],
-        "Routers": [
-            "MikroTik RouterBOARD Series",
-            "Huawei AR Series"
-        ],
-        "Storage_Devices": [
-            "NetApp FAS Series",
-            "IBM FlashSystem"
-        ],
-        "DNS": [
-            "Cloudflare DNS Services",
-            "Cloudflare DNS Services"
-        ],
-        "DHCP": [
-            "Cisco Prime Network Registrar",
-            "ISC DHCP Server on Linux"
-        ],
-        "Default_Gateway": [
-            "10.0.0.1",
-            "10.0.0.1"
-        ],
-        "DNS_Server": [
-            "192.168.1.10",
-            "192.168.1.10"
-        ],
-        "Active_Directory": [
-            "ADFS",
-            "Hybrid AD"
-        ],
-        "AD_Domain_Controllers": [
-            "Redundant controllers spread across multiple regions",
-            "Geographically distributed controllers for global reach"
-        ],
-        "AD_Organizational_Units": [
-            "Business unit segregation",
-            "Location-based OUs"
-        ],
-        "Bandwidth": [
-            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet",
-            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet"
-        ],
-        "Latency": [
-            "Remote office to HQ latency under 15ms",
-            "Global WAN connectivity maintained under 50ms"
-        ],
-        "Num_of_Users": [
-            "20000",
-            "100"
-        ],
-        "Num_of_Systems": [
-            "200",
-            "1000"
-        ],
-        "Backup_Storage_Solution": [
-            "Commvault with integrated tape libraries for long-term retention",
-            "Veritas NetBackup with cloud replication"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "IT Operations & System Administrators",
-            "Disaster Recovery Coordinators"
-        ],
-        "User_Authentication": [
-            "Biometric solutions",
-            "RSA SecurID Tokens for two-factor authentication"
-        ],
-        "User_Authorization": [
-            "Context-aware controls based on location, time, and device type",
-            "Role-Based Access Control (RBAC) via Azure AD roles"
-        ],
-        "Backup_Products": [
-            "Cohesity DataProtect for hyper-scale backup",
-            "Acronis Cyber Backup with cloud integration"
-        ],
-        "Num_of_Backup_Environments": [
-            "8",
-            "10"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Regulatory compliance documentation and audit records",
-            "Regulatory compliance documentation and audit records"
-        ],
-        "Azure_Blob": [
-            "No",
-            "Yes"
-        ],
-        "Traffic_Allowed_Out": [
-            "Whitelist approved IP ranges and protocols only",
-            "Whitelist approved IP ranges and protocols only"
-        ],
-        "SIEM_Tool": [
-            "Sumo Logic",
-            "LogRhythm"
-        ]
-    },
-    {
-        "Network_Model": [
-            " Point-to-Point",
-            "Distributed Network"
-        ],
-        "Cloud_Environment": [
-            "IBM Cloud",
-            "Azure"
-        ],
-        "Num_of_subscriptions": [
-            "7",
-            "6"
-        ],
-        "Subscription_Names": [
-            "Oracle-Analytics",
-            "Oracle-Analytics"
-        ],
-        "Firewalls": [
-            "SonicWall NSA Series",
-            "VMware NSX Distributed Firewall"
-        ],
-        "Archival_Storage_Accounts": [
-            "Oracle Cloud Archive Storage",
-            "Dell EMC Isilon for Archival Data"
-        ],
-        "Firewall_Management": [
-            "Cisco Firepower Management Center",
-            "Fortinet FortiManager"
-        ],
-        "Platform_Services": [
-            "IBM Cloud Kubernetes Service",
-            "Serverless Framework on Google Cloud Functions"
-        ],
-        "Critical_Systems": [
-            "Oracle E-Business Suite",
-            "Business Intelligence platforms"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "FedRAMP",
-            "SOX (Sarbanes-Oxley Act)"
-        ],
-        "Networking_Requirements": [
-            "Redundant connections with multi-ISP support",
-            "Quality of Service (QoS) for critical traffic prioritization"
-        ],
-        "Num_of_Servers": [
-            "10000",
-            "100"
-        ],
-        "Server_Type": [
-            "Hyper-converged Infrastructure Unit",
-            "Blade Servers"
-        ],
-        "Switches": [
-            "Juniper EX Series",
-            "Brocade ICX Series"
-        ],
-        "Routers": [
-            "Arista 7280 Series",
-            "MikroTik RouterBOARD Series"
-        ],
-        "Storage_Devices": [
-            "Pure Storage FlashArray",
-            "Ceph Distributed Storage Clusters"
-        ],
-        "DNS": [
-            "AWS Route",
-            "Cloudflare DNS Services"
-        ],
-        "DHCP": [
-            "Cloud-managed DHCP",
-            "Infoblox DHCP Solutions"
-        ],
-        "Default_Gateway": [
-            "10.1.1.1",
-            "172.16.0.1"
-        ],
-        "DNS_Server": [
-            "192.168.1.10",
-            "8.8.8.8"
-        ],
-        "Active_Directory": [
-            "ADFS",
-            "ADFS"
-        ],
-        "AD_Domain_Controllers": [
-            "VM-based DCs in the cloud (Azure AD DS)",
-            "VM-based DCs in the cloud (Azure AD DS)"
-        ],
-        "AD_Organizational_Units": [
-            "Location-based OUs",
-            "Department-based OUs"
-        ],
-        "Bandwidth": [
-            "Dual 1 Gbps connections at each site for redundancy",
-            "Branch offices with 500 Mbps broadband plus LTE backup"
-        ],
-        "Latency": [
-            "Global WAN connectivity maintained under 50ms",
-            "Monitoring tools ensuring latency stays within predefined thresholds"
-        ],
-        "Num_of_Users": [
-            "20000",
-            "10000"
-        ],
-        "Num_of_Systems": [
-            "10000",
-            "200"
-        ],
-        "Backup_Storage_Solution": [
-            "Veritas NetBackup with cloud replication",
-            "Acronis Cyber Backup with hybrid cloud integration"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "Disaster Recovery Coordinators",
-            "Business Continuity Planners"
-        ],
-        "User_Authentication": [
-            "Ping Identity with SAML-based authentication",
-            "LDAP with integrated Kerberos authentication"
-        ],
-        "User_Authorization": [
-            "Role-Based Access Control (RBAC) via Azure AD roles",
-            "Role-Based Access Control (RBAC) via Azure AD roles"
-        ],
-        "Backup_Products": [
-            "Cohesity DataProtect for hyper-scale backup",
-            "Arcserve UDP for unified data protection"
-        ],
-        "Num_of_Backup_Environments": [
-            "8",
-            "10"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Critical configuration files for network devices and servers",
-            "Critical configuration files for network devices and servers"
-        ],
-        "Azure_Blob": [
-            "No",
-            "Yes"
-        ],
-        "Traffic_Allowed_Out": [
-            "Route outbound traffic through dedicated proxy servers",
-            "Route outbound traffic through dedicated proxy servers"
-        ],
-        "SIEM_Tool": [
-            "LogRhythm",
-            "Sumo Logic"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Mesh Network",
-            "Hybrid"
-        ],
-        "Cloud_Environment": [
-            "Multi-Cloud",
-            "IBM Cloud"
-        ],
-        "Num_of_subscriptions": [
-            "6",
-            "1"
-        ],
-        "Subscription_Names": [
-            "GCP-Prod",
-            "Oracle-Analytics"
-        ],
-        "Firewalls": [
-            "VMware NSX Distributed Firewall",
-            "VMware NSX Distributed Firewall"
-        ],
-        "Archival_Storage_Accounts": [
-            "NetApp StorageGRID",
-            "Google Cloud Coldline"
-        ],
-        "Firewall_Management": [
-            "Juniper Networks Junos Space Security Director",
-            "Juniper Networks Junos Space Security Director"
-        ],
-        "Platform_Services": [
-            "IBM Cloud Kubernetes Service",
-            "IBM Cloud Kubernetes Service"
-        ],
-        "Critical_Systems": [
-            "Custom enterprise applications",
-            "Financial trading or high-frequency systems"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "NIST 800-53",
+            "ISO 27001/27002",
             "FedRAMP"
         ],
         "Networking_Requirements": [
             "Zero downtime requirements (e.g., 99.99% SLA)",
-            "Load balancing across multiple data centers"
+            "Quality of Service (QoS) for critical traffic prioritization"
         ],
         "Num_of_Servers": [
-            "10000",
-            "10000"
+            "10",
+            "1000"
         ],
         "Server_Type": [
-            "Blade Servers",
-            "Hyper-converged Infrastructure Unit"
+            "Hybrid Setups",
+            "Container Hosts"
         ],
         "Switches": [
-            "Cisco Meraki Switches",
-            "Brocade ICX Series"
+            "Juniper EX Series",
+            "Dell Networking N-Series"
         ],
         "Routers": [
             "Cisco ASR 1000 Series",
-            "Huawei AR Series"
+            "Cisco ASR 1000 Series"
         ],
         "Storage_Devices": [
             "NetApp FAS Series",
-            "Ceph Distributed Storage Clusters"
+            "HPE 3PAR StoreServ"
         ],
         "DNS": [
-            "BIND on Linux",
+            "Infoblox DNS Appliances",
             "BIND on Linux"
         ],
         "DHCP": [
-            "Cisco Prime Network Registrar",
-            "Integrated DHCP on Meraki Devices"
+            "ISC DHCP Server on Linux",
+            "Cisco Prime Network Registrar"
         ],
         "Default_Gateway": [
-            "10.0.0.1",
-            "10.1.1.1"
+            "10.1.1.1",
+            "10.0.0.1"
         ],
         "DNS_Server": [
-            "8.8.8.8",
+            "10.10.10.10",
             "192.168.1.10"
         ],
         "Active_Directory": [
-            "Hybrid AD",
-            "Managed AD Services"
+            "Managed AD Services",
+            "Hybrid AD"
         ],
         "AD_Domain_Controllers": [
-            "Geographically distributed controllers for global reach",
-            "Redundant controllers spread across multiple regions"
+            "Redundant controllers spread across multiple regions",
+            "VM-based DCs in the cloud (Azure AD DS)"
         ],
         "AD_Organizational_Units": [
-            "Location-based OUs",
-            "Department-based OUs"
+            "Temporary contractor or vendor OUs",
+            "Location-based OUs"
         ],
         "Bandwidth": [
-            "Dual 1 Gbps connections at each site for redundancy",
-            "Branch offices with 500 Mbps broadband plus LTE backup"
+            "HQ: 10 Gbps Fiber; Branch: 1 Gbps Ethernet",
+            "Data Center: 40 Gbps high-throughput links"
         ],
         "Latency": [
             "Remote office to HQ latency under 15ms",
-            "Low latency tailored for real-time trading or gaming platforms"
+            "Monitoring tools ensuring latency stays within predefined thresholds"
         ],
         "Num_of_Users": [
-            "500",
-            "500000"
+            "100",
+            "100000"
         ],
         "Num_of_Systems": [
-            "1000",
-            "200"
+            "100",
+            "100"
         ],
         "Backup_Storage_Solution": [
-            "Veritas NetBackup with cloud replication",
+            "Zerto for continuous data protection and replication",
             "Zerto for continuous data protection and replication"
         ],
         "User_Roles_with_IRE_Access": [
-            "Data Protection Officers or Incident Response Team members",
-            "Business Continuity Planners"
+            "IT Operations & System Administrators",
+            "Application Owners with elevated privileges"
         ],
         "User_Authentication": [
-            "Ping Identity with SAML-based authentication",
+            "Okta Single Sign-On (SSO) with MFA integration",
             "Okta Single Sign-On (SSO) with MFA integration"
         ],
         "User_Authorization": [
@@ -2676,263 +1026,113 @@
         ],
         "Backup_Products": [
             "Veritas NetBackup for large-scale environments",
-            "Arcserve UDP for unified data protection"
+            "Veritas NetBackup for large-scale environments"
         ],
         "Num_of_Backup_Environments": [
-            "1",
-            "10"
+            "4",
+            "5"
         ],
         "Technologies_to_Be_Placed_in_Vault": [
-            "Regulatory compliance documentation and audit records",
+            "Digital certificates and SSL/TLS keys",
             "Critical configuration files for network devices and servers"
         ],
         "Azure_Blob": [
-            "No",
-            "No"
+            "Yes",
+            "Yes"
         ],
         "Traffic_Allowed_Out": [
             "Route outbound traffic through dedicated proxy servers",
-            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)"
+            "Whitelist approved IP ranges and protocols only"
         ],
         "SIEM_Tool": [
             "LogRhythm",
-            "LogRhythm"
+            "Elastic SIEM integrated with the ELK Stack"
         ]
     },
     {
         "Network_Model": [
-            "Hybrid",
+            " Point-to-Point",
             "Full Mesh"
         ],
         "Cloud_Environment": [
-            "GCP",
-            "IBM Cloud"
+            "Multi-Cloud",
+            "AWS"
         ],
         "Num_of_subscriptions": [
-            "6",
+            "2",
             "8"
         ],
         "Subscription_Names": [
-            "GCP-Prod",
-            "GCP-Prod"
+            "Azure-DR",
+            "IBMCloud-Test"
         ],
         "Firewalls": [
-            "VMware NSX Distributed Firewall",
+            "Juniper SRX Series",
             "Fortinet FortiGate Next-Generation Firewall"
         ],
         "Archival_Storage_Accounts": [
             "Oracle Cloud Archive Storage",
-            "Oracle Cloud Archive Storage"
+            "IBM Cloud Object Storage - Archive"
         ],
         "Firewall_Management": [
-            "Cisco Firepower Management Center",
-            "Azure Firewall Manager"
+            "VMware vRealize Network Insight",
+            "Cisco Firepower Management Center"
         ],
         "Platform_Services": [
-            "Red Hat OpenShift or Docker Swarm",
+            "Serverless Framework on Google Cloud Functions",
             "Red Hat OpenShift or Docker Swarm"
         ],
         "Critical_Systems": [
-            "Oracle E-Business Suite",
-            "Business Intelligence platforms"
+            "Financial trading or high-frequency systems",
+            "Financial trading or high-frequency systems"
         ],
         "Compliance_Regulatory_Requirements": [
             "FedRAMP",
             "ISO 27001/27002"
         ],
         "Networking_Requirements": [
-            "Redundant connections with multi-ISP support",
-            "Zero downtime requirements (e.g., 99.99% SLA)"
-        ],
-        "Num_of_Servers": [
-            "500",
-            "10"
-        ],
-        "Server_Type": [
-            "Rack-mounted Servers",
-            "Hybrid Setups"
-        ],
-        "Switches": [
-            "Extreme Networks Summit Series",
-            "Dell Networking N-Series"
-        ],
-        "Routers": [
-            "MikroTik RouterBOARD Series",
-            "Huawei AR Series"
-        ],
-        "Storage_Devices": [
-            "NetApp FAS Series",
-            "HPE 3PAR StoreServ"
-        ],
-        "DNS": [
-            "Infoblox DNS Appliances",
-            "AWS Route"
-        ],
-        "DHCP": [
-            "Integrated DHCP on Meraki Devices",
-            "Cloud-managed DHCP"
-        ],
-        "Default_Gateway": [
-            "10.1.1.1",
-            "Dynamically assigned via SD-WAN solutions"
-        ],
-        "DNS_Server": [
-            "10.10.10.10",
-            "192.168.1.10"
-        ],
-        "Active_Directory": [
-            "ADFS",
-            "ADFS"
-        ],
-        "AD_Domain_Controllers": [
-            "VM-based DCs in the cloud (Azure AD DS)",
-            "A multi-master configuration with 4 DCs"
-        ],
-        "AD_Organizational_Units": [
-            "Role-based OUs",
-            "Department-based OUs"
-        ],
-        "Bandwidth": [
-            "Dual 1 Gbps connections at each site for redundancy",
-            "Data Center: 40 Gbps high-throughput links"
-        ],
-        "Latency": [
-            "Global WAN connectivity maintained under 50ms",
-            "Monitoring tools ensuring latency stays within predefined thresholds"
-        ],
-        "Num_of_Users": [
-            "200000",
-            "10000"
-        ],
-        "Num_of_Systems": [
-            "50000",
-            "10000"
-        ],
-        "Backup_Storage_Solution": [
-            "Veritas NetBackup with cloud replication",
-            "Acronis Cyber Backup with hybrid cloud integration"
-        ],
-        "User_Roles_with_IRE_Access": [
-            "Data Protection Officers or Incident Response Team members",
-            "Disaster Recovery Coordinators"
-        ],
-        "User_Authentication": [
-            "RSA SecurID Tokens for two-factor authentication",
-            "Ping Identity with SAML-based authentication"
-        ],
-        "User_Authorization": [
-            "Zero Trust access models with continuous verification",
-            "Role-Based Access Control (RBAC) via Azure AD roles"
-        ],
-        "Backup_Products": [
-            "Veritas NetBackup for large-scale environments",
-            "Veritas NetBackup for large-scale environments"
-        ],
-        "Num_of_Backup_Environments": [
-            "9",
-            "10"
-        ],
-        "Technologies_to_Be_Placed_in_Vault": [
-            "Regulatory compliance documentation and audit records",
-            "Critical configuration files for network devices and servers"
-        ],
-        "Azure_Blob": [
-            "No",
-            "Yes"
-        ],
-        "Traffic_Allowed_Out": [
-            "Route outbound traffic through dedicated proxy servers",
-            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)"
-        ],
-        "SIEM_Tool": [
-            "Sumo Logic",
-            "Elastic SIEM integrated with the ELK Stack"
-        ]
-    },
-    {
-        "Network_Model": [
-            "Mesh Network",
-            "Full Mesh"
-        ],
-        "Cloud_Environment": [
-            "AWS",
-            "GCP"
-        ],
-        "Num_of_subscriptions": [
-            "8",
-            "1"
-        ],
-        "Subscription_Names": [
-            "GCP-Prod",
-            "GCP-Prod"
-        ],
-        "Firewalls": [
-            "SonicWall NSA Series",
-            "Juniper SRX Series"
-        ],
-        "Archival_Storage_Accounts": [
-            "Dell EMC Isilon for Archival Data",
-            "Oracle Cloud Archive Storage"
-        ],
-        "Firewall_Management": [
-            "Azure Firewall Manager",
-            "VMware vRealize Network Insight"
-        ],
-        "Platform_Services": [
-            "Google Kubernetes Engine",
-            "IBM Cloud Kubernetes Service"
-        ],
-        "Critical_Systems": [
-            "Oracle E-Business Suite",
-            "Business Intelligence platforms"
-        ],
-        "Compliance_Regulatory_Requirements": [
-            "SOX (Sarbanes-Oxley Act)",
-            "FedRAMP"
-        ],
-        "Networking_Requirements": [
             "Load balancing across multiple data centers",
             "Load balancing across multiple data centers"
         ],
         "Num_of_Servers": [
-            "2000",
-            "500"
+            "10",
+            "50"
         ],
         "Server_Type": [
-            "Rack-mounted Servers",
+            "Container Hosts",
             "Hybrid Setups"
         ],
         "Switches": [
-            "Cisco Meraki Switches",
+            "Extreme Networks Summit Series",
             "Cisco Meraki Switches"
         ],
         "Routers": [
             "Cisco ASR 1000 Series",
-            "Cisco ASR 1000 Series"
+            "MikroTik RouterBOARD Series"
         ],
         "Storage_Devices": [
             "Pure Storage FlashArray",
-            "Pure Storage FlashArray"
+            "Ceph Distributed Storage Clusters"
         ],
         "DNS": [
-            "Cloudflare DNS Services",
-            "Google Cloud DNS"
+            "BIND on Linux",
+            "AWS Route"
         ],
         "DHCP": [
-            "Infoblox DHCP Solutions",
+            "ISC DHCP Server on Linux",
             "Cloud-managed DHCP"
         ],
         "Default_Gateway": [
-            "10.1.1.1",
+            "192.168.0.1",
             "10.0.0.1"
         ],
         "DNS_Server": [
             "192.168.1.10",
-            "10.10.10.10"
+            "8.8.8.8"
         ],
         "Active_Directory": [
-            "Azure Active Directory Domain Services",
-            "Azure Active Directory Domain Services"
+            "ADFS",
+            "LDAP-based Directory Services"
         ],
         "AD_Domain_Controllers": [
             "Redundant controllers spread across multiple regions",
@@ -2940,63 +1140,63 @@
         ],
         "AD_Organizational_Units": [
             "Location-based OUs",
-            "Department-based OUs"
+            "Location-based OUs"
         ],
         "Bandwidth": [
             "Branch offices with 500 Mbps broadband plus LTE backup",
-            "Branch offices with 500 Mbps broadband plus LTE backup"
+            "Data Center: 40 Gbps high-throughput links"
         ],
         "Latency": [
-            "Global WAN connectivity maintained under 50ms",
+            "Inter-datacenter latency below 20ms",
             "Low latency tailored for real-time trading or gaming platforms"
         ],
         "Num_of_Users": [
-            "200000",
-            "20000"
+            "500",
+            "500000"
         ],
         "Num_of_Systems": [
             "1000",
-            "2000"
+            "50"
         ],
         "Backup_Storage_Solution": [
-            "Cohesity DataProtect Platform",
-            "Cohesity DataProtect Platform"
+            "Commvault with integrated tape libraries for long-term retention",
+            "Zerto for continuous data protection and replication"
         ],
         "User_Roles_with_IRE_Access": [
-            "IT Operations & System Administrators",
-            "IT Operations & System Administrators"
+            "Disaster Recovery Coordinators",
+            "Business Continuity Planners"
         ],
         "User_Authentication": [
             "Okta Single Sign-On (SSO) with MFA integration",
-            "Ping Identity with SAML-based authentication"
+            "LDAP with integrated Kerberos authentication"
         ],
         "User_Authorization": [
-            "Custom policies enforced via Cloud Access Security Brokers (CASB)",
-            "Context-aware controls based on location, time, and device type"
+            "Context-aware controls based on location, time, and device type",
+            "Attribute-Based Access Control (ABAC) for fine-grained permissions"
         ],
         "Backup_Products": [
-            "Acronis Cyber Backup with cloud integration",
-            "Veritas NetBackup for large-scale environments"
+            "Arcserve UDP for unified data protection",
+            "Zerto for real-time replication and recovery"
         ],
         "Num_of_Backup_Environments": [
-            "4",
-            "4"
+            "2",
+            "7"
         ],
         "Technologies_to_Be_Placed_in_Vault": [
-            "Regulatory compliance documentation and audit records",
-            "Regulatory compliance documentation and audit records"
+            "Backup logs, recovery scripts, and audit trails",
+            "Backup logs, recovery scripts, and audit trails"
         ],
         "Azure_Blob": [
-            "No",
-            "No"
+            "Yes",
+            "Yes"
         ],
         "Traffic_Allowed_Out": [
             "Whitelist approved IP ranges and protocols only",
-            "Route outbound traffic through dedicated proxy servers"
+            "Restrict to essential ports (e.g., HTTPS on 443, DNS on 53)"
         ],
         "SIEM_Tool": [
-            "Sumo Logic",
-            "Sumo Logic"
+            "LogRhythm",
+            "LogRhythm"
         ]
     }
 ]
