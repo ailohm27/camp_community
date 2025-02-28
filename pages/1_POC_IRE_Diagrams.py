@@ -12,6 +12,9 @@ st.title("🛠 POC IRE Diagram")
 # technologies used in supporting the POC.
 # """)
 
+# -------------------------------------------------------------------------
+# Process Flow Diagram
+# -------------------------------------------------------------------------
 architecture_data = [
     {
         "component": "Excel File",
@@ -159,12 +162,16 @@ if os.path.exists(diagram_file):
             label=f"💾 Download Diagram as {output_format.upper()}",
             data=f,
             file_name=os.path.basename(diagram_file),
-            mime="image/png" if output_format == "png" else "application/pdf"
+            mime="image/png" if output_format == "png" else "application/pdf",
+            key="download_button"
         )
     st.success(f"Diagram generated and saved as {diagram_file}")
 else:
     st.error("Could not find the generated diagram file!")
 
+# -------------------------------------------------------------------------
+# Architechture Diagram
+# -------------------------------------------------------------------------
 # Streamlit UI Header
 # st.markdown("""
 # The POC architecture diagram displays the flow of information and 
@@ -287,21 +294,22 @@ for item in architecture_data:
         )
 
 # Render diagram to a file and provide a download button
-output_filename = "architecture_diagram"
-g.render(output_filename, cleanup=True)
-diagram_file = f"{output_filename}.{output_format}"
+output_filename_2 = "architecture_diagram"
+g.render(output_filename_2, cleanup=True)
+diagram_file_2 = f"{output_filename}.{output_format}"
 
 st.subheader("📊 Architecture Diagram")
 st.graphviz_chart(g)
 
-if os.path.exists(diagram_file):
-    with open(diagram_file, "rb") as f:
+if os.path.exists(diagram_file_2):
+    with open(diagram_file_2, "rb") as f:
         st.download_button(
             label=f"💾 Download Diagram as {output_format.upper()}",
             data=f,
-            file_name=os.path.basename(diagram_file),
-            mime="image/png" if output_format == "png" else "application/pdf"
+            file_name=os.path.basename(diagram_file_2),
+            mime="image/png" if output_format == "png" else "application/pdf",
+            key="download_button_2"
         )
-    st.success(f"Diagram generated and saved as {diagram_file}")
+    st.success(f"Diagram generated and saved as {diagram_file_2}")
 else:
     st.error("Could not find the generated diagram file!")

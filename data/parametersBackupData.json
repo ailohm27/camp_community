@@ -1,0 +1,15 @@
+
+    {
+        "Current Backup Products": 
+            ["Acronis Cyber Protect", "Backblaze B2", "Druva", "Carbonite", "Microsoft Azure Backup", "Commavault", "Veritas", "IBM Spectrum"],
+        "IRE Backup Products": 
+            ["Veeam", "CyberVault", "CommVault", "Rubrik"],
+        "# of Backup Environments":
+            ["1", "2", "3", "4"],
+        "Technologies to Be Placed in Vault": 
+            ["VMware NSX", "Cisco ASA", "CyberArk","Zerto","Splunk","Darktrace", "MFA", "VMware ESXi", "Kubernetes", "SAP Recovery", "Exchange Recovery", "Palo Alto Cortex"],
+        "Traffic Allowed": 
+            ["Data Replication", "Admin", "Recovery", "Logging and Monitoring", "Test and Validation", "Time Synchronization"],
+        "Traffic Blocked": 
+            ["Internet", "Email", "Continuous Live Connection", "Unencrpyted Data"]
+    }

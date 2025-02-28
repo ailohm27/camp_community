@@ -1,0 +1,66 @@
+[
+    {
+        "Current Backup Products": "Backblaze B2",
+        "IRE Backup Products": "CommVault",
+        "# of Backup Environment": "3",
+        "Technologies to Be Placed in Vault": "CyberArk",
+        "Traffic Allowed": "Time Synchronization",
+        "Traffic_Blocked": "Continuous Live Connection"
+    },
+    {
+        "Current Backup Products": "Veritas",
+        "IRE Backup Products": "Veeam",
+        "# of Backup Environment": "4",
+        "Technologies to Be Placed in Vault": "Splunk",
+        "Traffic Allowed": "Admin",
+        "Traffic_Blocked": "Internet"
+    },
+    {
+        "Current Backup Products": "Acronis Cyber Protect",
+        "IRE Backup Products": "CommVault",
+        "# of Backup Environment": "1",
+        "Technologies to Be Placed in Vault": "CyberArk",
+        "Traffic Allowed": "Recovery",
+        "Traffic_Blocked": "Email"
+    },
+    {
+        "Current Backup Products": "Veritas",
+        "IRE Backup Products": "CyberVault",
+        "# of Backup Environment": "1",
+        "Technologies to Be Placed in Vault": "MFA",
+        "Traffic Allowed": "Data Replication",
+        "Traffic_Blocked": "Unencrpyted Data"
+    },
+    {
+        "Current Backup Products": "Backblaze B2",
+        "IRE Backup Products": "Veeam",
+        "# of Backup Environment": "1",
+        "Technologies to Be Placed in Vault": "CyberArk",
+        "Traffic Allowed": "Time Synchronization",
+        "Traffic_Blocked": "Continuous Live Connection"
+    },
+    {
+        "Current Backup Products": "Commavault",
+        "IRE Backup Products": "CyberVault",
+        "# of Backup Environment": "1",
+        "Technologies to Be Placed in Vault": "Kubernetes",
+        "Traffic Allowed": "Data Replication",
+        "Traffic_Blocked": "Continuous Live Connection"
+    },
+    {
+        "Current Backup Products": "Acronis Cyber Protect",
+        "IRE Backup Products": "CyberVault",
+        "# of Backup Environment": "4",
+        "Technologies to Be Placed in Vault": "MFA",
+        "Traffic Allowed": "Data Replication",
+        "Traffic_Blocked": "Continuous Live Connection"
+    },
+    {
+        "Current Backup Products": "Microsoft Azure Backup",
+        "IRE Backup Products": "Rubrik",
+        "# of Backup Environment": "3",
+        "Technologies to Be Placed in Vault": "Palo Alto Cortex",
+        "Traffic Allowed": "Test and Validation",
+        "Traffic_Blocked": "Email"
+    }
+]
