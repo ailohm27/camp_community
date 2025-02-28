@@ -8,7 +8,7 @@ from rich.console import Console
 import os
 
 # Streamlit UI Header
-st.title("🛠 Refined Architecture Diagram Generator")
+st.title("Network Architecture Diagram Generator")
 st.markdown("""
 Generate a random **architecture diagram** showcasing system components, 
 dependencies, and data flow, **grouped by technology domains** in a left-to-right layout.
@@ -159,10 +159,6 @@ for _, row in df.iterrows():
 output_filename = "architecture_diagram"
 g.render(output_filename, cleanup=True)
 diagram_file = f"{output_filename}.{output_format}"
-
-# # Display the Architecture Diagram in Streamlit
-# st.subheader("📊 Architecture Diagram (Preview)")
-# st.graphviz_chart(g)
 
 # Provide a download button to retrieve the static file for offline usage/printing
 if os.path.exists(diagram_file):
